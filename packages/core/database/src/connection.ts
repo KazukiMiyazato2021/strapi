@@ -1,7 +1,9 @@
 import knex from 'knex';
+import ClientD1 from 'knex-cloudflare-d1';
 import type { Knex } from 'knex';
 
 const clientMap = {
+  d1: ClientD1,
   sqlite: 'better-sqlite3',
   mysql: 'mysql2',
   postgres: 'pg',

@@ -8995,6 +8995,7 @@ __metadata:
     eslint-config-custom: "npm:5.12.7"
     fs-extra: "npm:11.2.0"
     knex: "npm:3.0.1"
+    knex-cloudflare-d1: "npm:0.1.1"
     lodash: "npm:4.17.21"
     semver: "npm:7.5.4"
     tsconfig: "npm:5.12.7"
@@ -22121,6 +22122,15 @@ __metadata:
   version: 3.0.3
   resolution: "kleur@npm:3.0.3"
   checksum: 10c0/cd3a0b8878e7d6d3799e54340efe3591ca787d9f95f109f28129bdd2915e37807bf8918bb295ab86afb8c82196beec5a1adcaf29042ce3f2bd932b038fe3aa4b
+  languageName: node
+  linkType: hard
+
+"knex-cloudflare-d1@npm:0.1.1":
+  version: 0.1.1
+  resolution: "knex-cloudflare-d1@npm:0.1.1"
+  peerDependencies:
+    knex: ">=2.5.0"
+  checksum: 10c0/ad3e76950e5e3e8d13436666dc72623ae003f984232d0ec0c98d0ca7c9ad8f131edf31ef9a526dccd930ddaf7097de58e13090264ccdac845f54decbeffed9e8
   languageName: node
   linkType: hard
 

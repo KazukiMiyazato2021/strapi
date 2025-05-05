@@ -15,6 +15,8 @@ const getDialectClass = (client: string): typeof Dialect => {
       return MysqlClass;
     case 'sqlite':
       return SqliteClass;
+    case 'd1':
+      return SqliteClass;
     default:
       throw new Error(`Unknown dialect ${client}`);
   }
@@ -30,6 +32,8 @@ const getDialectName = (client: unknown) => {
     case 'mysql':
       return 'mysql';
     case 'sqlite':
+      return 'sqlite';
+    case 'd1':
       return 'sqlite';
     default:
       throw new Error(`Unknown dialect ${client}`);
