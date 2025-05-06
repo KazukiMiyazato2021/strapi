@@ -1,5 +1,5 @@
-import { contentTypes as contentTypesUtils, async } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import { contentTypes as contentTypesUtils, async } from '@kazuki.m---strapi/utils';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 import { getBatchToDiscard } from './database/5.0.0-discard-drafts';
 

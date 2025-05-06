@@ -1,4 +1,4 @@
-import type { Plugin } from '@strapi/types';
+import type { Plugin } from '@kazuki.m---strapi/types';
 import { controllers } from './controllers';
 import { services } from './services';
 import { routes } from './routes';

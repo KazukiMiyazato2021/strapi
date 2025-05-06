@@ -1,4 +1,4 @@
-import type { UID, Data, Core } from '@strapi/types';
+import type { UID, Data, Core } from '@kazuki.m---strapi/types';
 
 import type { SettingsService } from '../services/settings';
 import type { ReleaseService } from '../services/release';

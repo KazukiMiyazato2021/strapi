@@ -12,9 +12,9 @@
  */
 
 /* eslint-disable no-continue */
-import type { UID } from '@strapi/types';
-import type { Database, Migration } from '@strapi/database';
-import { async, contentTypes } from '@strapi/utils';
+import type { UID } from '@kazuki.m---strapi/types';
+import type { Database, Migration } from '@kazuki.m---strapi/database';
+import { async, contentTypes } from '@kazuki.m---strapi/utils';
 import { createDocumentService } from '../../services/document-service';
 
 type DocumentVersion = { documentId: string; locale: string };

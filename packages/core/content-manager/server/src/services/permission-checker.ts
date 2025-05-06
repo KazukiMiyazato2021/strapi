@@ -1,5 +1,5 @@
-import { async } from '@strapi/utils';
-import type { Core, UID, Modules } from '@strapi/types';
+import { async } from '@kazuki.m---strapi/utils';
+import type { Core, UID, Modules } from '@kazuki.m---strapi/types';
 
 const ACTIONS = {
   read: 'plugin::content-manager.explorer.read',

@@ -1,7 +1,7 @@
 import { isNil } from 'lodash/fp';
 
-import { setCreatorFields, async, errors } from '@strapi/utils';
-import type { Modules, UID } from '@strapi/types';
+import { setCreatorFields, async, errors } from '@kazuki.m---strapi/utils';
+import type { Modules, UID } from '@kazuki.m---strapi/types';
 
 import { getService } from '../utils';
 import { validateBulkActionInput } from './validation';

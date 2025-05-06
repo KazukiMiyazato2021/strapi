@@ -1,4 +1,4 @@
-import '@strapi/types';
+import '@kazuki.m---strapi/types';
 
 export const sendDidCreateStage = async () => {
   strapi.telemetry.send('didCreateStage', {});

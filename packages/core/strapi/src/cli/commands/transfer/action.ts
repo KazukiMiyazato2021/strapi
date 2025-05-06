@@ -1,5 +1,5 @@
 import { isObject } from 'lodash/fp';
-import { engine as engineDataTransfer, strapi as strapiDataTransfer } from '@strapi/data-transfer';
+import { engine as engineDataTransfer, strapi as strapiDataTransfer } from '@kazuki.m---strapi/data-transfer';
 
 import {
   buildTransferTable,

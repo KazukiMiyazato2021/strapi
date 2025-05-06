@@ -5,8 +5,8 @@ import { StageSelect } from './routes/content-manager/model/id/components/StageS
 import { addColumnToTableHook } from './utils/cm-hooks';
 import { prefixPluginTranslations } from './utils/translations';
 
-import type { StrapiApp } from '@strapi/admin/strapi-admin';
-import type { Plugin } from '@strapi/types';
+import type { StrapiApp } from '@kazuki.m---strapi/admin/strapi-admin';
+import type { Plugin } from '@kazuki.m---strapi/types';
 
 const admin: Plugin.Config.AdminInput = {
   register(app: StrapiApp) {

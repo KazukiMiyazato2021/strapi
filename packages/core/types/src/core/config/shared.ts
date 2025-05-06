@@ -1,4 +1,4 @@
-import { env } from '@strapi/utils';
+import { env } from '@kazuki.m---strapi/utils';
 
 export type ConfigParams = {
   env: typeof env;

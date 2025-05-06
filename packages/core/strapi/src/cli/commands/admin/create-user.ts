@@ -1,8 +1,8 @@
 import { createCommand } from 'commander';
-import { yup } from '@strapi/utils';
+import { yup } from '@kazuki.m---strapi/utils';
 import _ from 'lodash';
 import inquirer from 'inquirer';
-import { createStrapi, compileStrapi } from '@strapi/core';
+import { createStrapi, compileStrapi } from '@kazuki.m---strapi/core';
 
 import { runAction } from '../../utils/helpers';
 import type { StrapiCommand } from '../../types';

@@ -1,4 +1,4 @@
-import { providerFactory } from '@strapi/utils';
+import { providerFactory } from '@kazuki.m---strapi/utils';
 
 export interface Condition {
   name: string;

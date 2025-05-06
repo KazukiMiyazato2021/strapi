@@ -1,4 +1,4 @@
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@kazuki.m---strapi/types';
 import _ from 'lodash';
 import { hasDefaultAttribute } from '../../utils/typeguards';
 

@@ -1,9 +1,9 @@
 import bcrypt from 'bcryptjs';
 import _ from 'lodash';
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 import { getService } from '../utils';
 import type { AdminUser } from '../../../shared/contracts/shared';
-import '@strapi/types';
+import '@kazuki.m---strapi/types';
 
 const { ApplicationError } = errors;
 

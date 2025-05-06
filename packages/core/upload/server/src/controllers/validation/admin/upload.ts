@@ -1,4 +1,4 @@
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@kazuki.m---strapi/utils';
 import { isNil } from 'lodash/fp';
 import { getService } from '../../../utils';
 

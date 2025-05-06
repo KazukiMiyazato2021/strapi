@@ -1,5 +1,5 @@
-import type { Modules, Data } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Modules, Data } from '@kazuki.m---strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
 
 type PaginationQuery = Modules.EntityService.Params.Pagination.PageNotation;
 

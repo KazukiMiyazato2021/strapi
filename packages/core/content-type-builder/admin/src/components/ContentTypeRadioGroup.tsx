@@ -1,4 +1,4 @@
-import { useNotification } from '@strapi/admin/strapi-admin';
+import { useNotification } from '@kazuki.m---strapi/admin/strapi-admin';
 import { useIntl } from 'react-intl';
 
 import { getTrad } from '../utils';

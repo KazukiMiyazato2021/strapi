@@ -1,4 +1,4 @@
-import { NotificationsProvider } from '@strapi/admin/strapi-admin';
+import { NotificationsProvider } from '@kazuki.m---strapi/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { within, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { IntlProvider } from 'react-intl';
@@ -8,8 +8,8 @@ import { useEditFolder } from '../../../hooks/useEditFolder';
 import { useMediaLibraryPermissions } from '../../../hooks/useMediaLibraryPermissions';
 import { EditFolderDialog, EditFolderDialogProps } from '../EditFolderDialog';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@kazuki.m---strapi/admin/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/admin/strapi-admin'),
   useFetchClient: jest.fn().mockReturnValue({
     put: jest.fn().mockImplementation(() => {}),
   }),

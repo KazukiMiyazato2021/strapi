@@ -13,10 +13,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/provider-email-mailgun": "workspace:*",
-    "@strapi/provider-upload-aws-s3": "workspace:*",
-    "@strapi/provider-upload-cloudinary": "workspace:*",
-    "@strapi/strapi": "workspace:*",
+    "@kazuki.m---strapi/provider-email-mailgun": "workspace:*",
+    "@kazuki.m---strapi/provider-upload-aws-s3": "workspace:*",
+    "@kazuki.m---strapi/provider-upload-cloudinary": "workspace:*",
+    "@kazuki.m---strapi/strapi": "workspace:*",
     "better-sqlite3": "11.3.0",
     "lodash": "4.17.21",
     "mysql2": "3.9.8",

@@ -1,4 +1,4 @@
-import { useFetchClient, FetchClient } from '@strapi/admin/strapi-admin';
+import { useFetchClient, FetchClient } from '@kazuki.m---strapi/admin/strapi-admin';
 import { useMutation, useQueryClient } from 'react-query';
 
 import { CreateFolders, UpdateFolder } from '../../../shared/contracts/folders';

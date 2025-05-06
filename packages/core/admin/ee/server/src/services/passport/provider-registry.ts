@@ -1,4 +1,4 @@
-import '@strapi/types';
+import '@kazuki.m---strapi/types';
 
 export default () => {
   const registry = new Map();

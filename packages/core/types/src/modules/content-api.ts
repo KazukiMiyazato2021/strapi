@@ -1,5 +1,5 @@
-import permissions from '@strapi/permissions';
-import { providerFactory, sanitize, validate } from '@strapi/utils';
+import permissions from '@kazuki.m---strapi/permissions';
+import { providerFactory, sanitize, validate } from '@kazuki.m---strapi/utils';
 
 import type { Route } from '../core';
 

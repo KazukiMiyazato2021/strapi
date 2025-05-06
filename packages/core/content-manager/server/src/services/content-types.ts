@@ -1,7 +1,7 @@
 import { isNil, mapValues } from 'lodash/fp';
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
+import { contentTypes as contentTypesUtils } from '@kazuki.m---strapi/utils';
 
-import type { UID, Struct, Core } from '@strapi/types';
+import type { UID, Struct, Core } from '@kazuki.m---strapi/types';
 
 import type { ConfigurationUpdate } from './configuration';
 

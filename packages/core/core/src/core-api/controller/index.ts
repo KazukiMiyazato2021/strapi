@@ -1,7 +1,7 @@
 import { prop } from 'lodash/fp';
 import type Koa from 'koa';
-import { contentTypes as contentTypeUtils } from '@strapi/utils';
-import type { Core, Struct } from '@strapi/types';
+import { contentTypes as contentTypeUtils } from '@kazuki.m---strapi/utils';
+import type { Core, Struct } from '@kazuki.m---strapi/types';
 
 import { transformResponse } from './transform';
 import { createSingleTypeController } from './single-type';

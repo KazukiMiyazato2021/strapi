@@ -1,4 +1,4 @@
-import { env } from '@strapi/utils';
+import { env } from '@kazuki.m---strapi/utils';
 
 export interface Config {
   validator: (config: Record<string, unknown>) => void;

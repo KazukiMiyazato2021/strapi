@@ -1,4 +1,4 @@
-import type { UID } from '@strapi/types';
+import type { UID } from '@kazuki.m---strapi/types';
 import { LongHandDocument } from './types';
 
 export const isLocalizedContentType = (uid: UID.Schema) => {

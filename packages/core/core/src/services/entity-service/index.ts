@@ -1,13 +1,13 @@
 import _ from 'lodash';
 import delegate from 'delegates';
-import { errors as databaseErrors } from '@strapi/database';
+import { errors as databaseErrors } from '@kazuki.m---strapi/database';
 import {
   contentTypes as contentTypesUtils,
   errors,
   relations as relationUtils,
-} from '@strapi/utils';
-import type { Database } from '@strapi/database';
-import type { Core, Modules, Utils } from '@strapi/types';
+} from '@kazuki.m---strapi/utils';
+import type { Database } from '@kazuki.m---strapi/database';
+import type { Core, Modules, Utils } from '@kazuki.m---strapi/types';
 
 type Decoratable<T> = T & {
   decorate(

@@ -1,8 +1,8 @@
 import assert from 'assert/strict';
 import { has } from 'lodash/fp';
 
-import { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
 import type { ParameterizedContext } from 'koa';
 
 interface AuthenticationResponse {

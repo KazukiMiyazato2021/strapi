@@ -1,7 +1,7 @@
 import { createModifiedDataSchema } from '../createModifiedDataSchema';
 
 import type { Components } from '../../../../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 describe('CONTENT TYPE BUILDER | COMPONENTS | DataManagerProvider | utils | createModifiedDataSchema', () => {
   it('should create the modifiedData object correctly when it is used in the content type view and there is no associated components', () => {

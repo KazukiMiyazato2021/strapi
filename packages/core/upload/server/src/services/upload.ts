@@ -11,9 +11,9 @@ import {
   contentTypes as contentTypesUtils,
   errors,
   file as fileUtils,
-} from '@strapi/utils';
+} from '@kazuki.m---strapi/utils';
 
-import type { Core, UID } from '@strapi/types';
+import type { Core, UID } from '@kazuki.m---strapi/types';
 
 import { FILE_MODEL_UID, ALLOWED_WEBHOOK_EVENTS } from '../constants';
 import { getService } from '../utils';

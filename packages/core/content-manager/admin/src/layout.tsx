@@ -1,7 +1,7 @@
 /* eslint-disable check-file/filename-naming-convention */
 import * as React from 'react';
 
-import { Page, useGuidedTour, Layouts } from '@strapi/admin/strapi-admin';
+import { Page, useGuidedTour, Layouts } from '@kazuki.m---strapi/admin/strapi-admin';
 import { useIntl } from 'react-intl';
 import { Navigate, Outlet, useLocation, useMatch } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Core, Modules } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Core, Modules } from '@kazuki.m---strapi/types';
 
 const { ApplicationError } = errors;
 

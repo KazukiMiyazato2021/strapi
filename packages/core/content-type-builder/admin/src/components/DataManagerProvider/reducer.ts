@@ -9,7 +9,7 @@ import { makeUnique } from '../../utils/makeUnique';
 import { retrieveComponentsFromSchema } from './utils/retrieveComponentsFromSchema';
 
 import type { DataManagerStateType, ContentType, AttributeType, Component } from '../../types';
-import type { Internal, Schema } from '@strapi/types';
+import type { Internal, Schema } from '@kazuki.m---strapi/types';
 
 type Target = 'component' | 'components' | 'contentType' | 'contentTypes';
 

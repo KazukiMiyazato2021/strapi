@@ -1,4 +1,4 @@
-import '@strapi/types';
+import '@kazuki.m---strapi/types';
 import passport from '../../../../../server/src/services/passport';
 import createProviderRegistry from './provider-registry';
 

@@ -3,8 +3,8 @@ import { dirname, join, resolve } from 'path';
 import { statSync, existsSync } from 'fs';
 import _ from 'lodash';
 import { get, pickBy, defaultsDeep, map, prop, pipe } from 'lodash/fp';
-import { strings } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { strings } from '@kazuki.m---strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
 import { getUserPluginsConfig } from './get-user-plugins-config';
 
 interface PluginMeta {
@@ -34,13 +34,13 @@ interface PluginDeclaration {
  *       See admin.ts server controller on the content-manager plugin for more details.
  */
 const INTERNAL_PLUGINS = [
-  '@strapi/content-manager',
-  '@strapi/content-type-builder',
-  '@strapi/email',
-  '@strapi/upload',
-  '@strapi/i18n',
-  '@strapi/content-releases',
-  '@strapi/review-workflows',
+  '@kazuki.m---strapi/content-manager',
+  '@kazuki.m---strapi/content-type-builder',
+  '@kazuki.m---strapi/email',
+  '@kazuki.m---strapi/upload',
+  '@kazuki.m---strapi/i18n',
+  '@kazuki.m---strapi/content-releases',
+  '@kazuki.m---strapi/review-workflows',
 ];
 
 const isStrapiPlugin = (info: PluginInfo) => get('strapi.kind', info) === 'plugin';
@@ -94,7 +94,7 @@ export const getEnabledPlugins = async (strapi: Core.Strapi, { client } = { clie
 
     // NOTE: internal plugins should be resolved from the strapi package
     const packageModulePath = require.resolve(packagePath, {
-      paths: [require.resolve('@strapi/strapi/package.json'), process.cwd()],
+      paths: [require.resolve('@kazuki.m---strapi/strapi/package.json'), process.cwd()],
     });
 
     const packageInfo = require(packageModulePath);

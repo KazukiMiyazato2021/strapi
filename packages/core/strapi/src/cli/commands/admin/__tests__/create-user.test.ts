@@ -25,7 +25,7 @@ const mock = {
   admin,
 };
 
-jest.mock('@strapi/core', () => {
+jest.mock('@kazuki.m---strapi/core', () => {
   const createStrapi: any = jest.fn(() => mock);
   const compileStrapi = jest.fn();
 

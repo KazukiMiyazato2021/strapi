@@ -1,5 +1,5 @@
-import type { Core, Data, UID } from '@strapi/types';
-import { async, contentTypes } from '@strapi/utils';
+import type { Core, Data, UID } from '@kazuki.m---strapi/types';
+import { async, contentTypes } from '@kazuki.m---strapi/utils';
 
 const hasDraftAndPublish = (uid: UID.CollectionType) => {
   const model = strapi.getModel(uid);

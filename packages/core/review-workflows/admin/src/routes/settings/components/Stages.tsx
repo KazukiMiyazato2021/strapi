@@ -8,7 +8,7 @@ import {
   useNotification,
   InputRenderer as AdminInputRenderer,
   InputProps,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Box,
   Flex,

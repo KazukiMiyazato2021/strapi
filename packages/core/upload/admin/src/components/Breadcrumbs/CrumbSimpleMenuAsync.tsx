@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@kazuki.m---strapi/admin/strapi-admin';
 import { CrumbSimpleMenu, Loader, MenuItem } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { useLocation } from 'react-router-dom';

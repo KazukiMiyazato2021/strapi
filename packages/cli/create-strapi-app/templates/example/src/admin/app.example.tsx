@@ -1,4 +1,4 @@
-import type { StrapiApp } from '@strapi/strapi/admin';
+import type { StrapiApp } from '@kazuki.m---strapi/strapi/admin';
 
 export default {
   config: {

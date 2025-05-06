@@ -1,5 +1,5 @@
-import type { Schema, UID } from '@strapi/types';
-import { contentTypes as contentTypesUtils, async } from '@strapi/utils';
+import type { Schema, UID } from '@kazuki.m---strapi/types';
+import { contentTypes as contentTypesUtils, async } from '@kazuki.m---strapi/utils';
 import isEqual from 'lodash/isEqual';
 
 import { difference, keys } from 'lodash';

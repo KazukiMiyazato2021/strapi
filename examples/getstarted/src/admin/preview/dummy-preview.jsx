@@ -2,8 +2,8 @@ import * as React from 'react';
 import { useParams } from 'react-router-dom';
 
 // @ts-ignore
-import { Page, Layouts } from '@strapi/admin/strapi-admin';
-import { unstable_useDocument as useDocument } from '@strapi/content-manager/strapi-admin';
+import { Page, Layouts } from '@kazuki.m---strapi/admin/strapi-admin';
+import { unstable_useDocument as useDocument } from '@kazuki.m---strapi/content-manager/strapi-admin';
 import { Grid, Flex, Typography, JSONInput } from '@strapi/design-system';
 
 const PreviewComponent = () => {

@@ -1,6 +1,6 @@
 import { difference, omit } from 'lodash/fp';
-import { contentTypes } from '@strapi/utils';
-import type { Core, Modules, Schema, Data, Struct, UID } from '@strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
+import type { Core, Modules, Schema, Data, Struct, UID } from '@kazuki.m---strapi/types';
 
 import { FIELDS_TO_IGNORE } from '../constants';
 import type { CreateHistoryVersion } from '../../../../shared/contracts/history-versions';

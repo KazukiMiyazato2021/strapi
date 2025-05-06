@@ -7,7 +7,7 @@ import {
   type TrackingEvent,
   useAPIErrorHandler,
   useGuidedTour,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import { useIntl, type MessageDescriptor } from 'react-intl';
 import { useNavigate } from 'react-router-dom';
 
@@ -180,7 +180,7 @@ type IUseDocumentActs = ReturnType<UseDocumentActions>;
  * the user needs to handle side-effects.
  * @example
  * ```tsx
- * import { Form } from '@strapi/admin/admin';
+ * import { Form } from '@kazuki.m---strapi/admin/admin';
  *
  * const { id, model, collectionType } = useParams<{ id: string; model: string; collectionType: string }>();
  * const { update } = useDocumentActions();

@@ -1,7 +1,7 @@
 import { isNil } from 'lodash/fp';
 
-import { contentTypes } from '@strapi/utils';
-import type { UID } from '@strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
+import type { UID } from '@kazuki.m---strapi/types';
 
 import { LongHandDocument } from './types';
 

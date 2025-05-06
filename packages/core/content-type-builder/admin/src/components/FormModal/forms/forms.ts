@@ -15,7 +15,7 @@ import { addItemsToFormSection, FormTypeOptions } from './utils/addItemsToFormSe
 import { createComponentCollectionName } from './utils/createCollectionName';
 import { Attribute, getUsedAttributeNames, SchemaData } from './utils/getUsedAttributeNames';
 
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 type ContentType = {
   schema: {

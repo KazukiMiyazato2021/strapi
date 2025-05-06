@@ -17,9 +17,9 @@ import {
   cloneDeep,
 } from 'lodash/fp';
 
-import type { UID } from '@strapi/types';
+import type { UID } from '@kazuki.m---strapi/types';
 
-import { contentTypes, traverseEntity, sanitize, async, traverse } from '@strapi/utils';
+import { contentTypes, traverseEntity, sanitize, async, traverse } from '@kazuki.m---strapi/utils';
 import { ADMIN_USER_ALLOWED_FIELDS } from '../../../domain/user';
 
 const {

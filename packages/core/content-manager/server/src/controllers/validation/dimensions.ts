@@ -1,5 +1,5 @@
-import { errors, yup, validateYupSchema, contentTypes } from '@strapi/utils';
-import type { UID } from '@strapi/types';
+import { errors, yup, validateYupSchema, contentTypes } from '@kazuki.m---strapi/utils';
+import type { UID } from '@kazuki.m---strapi/types';
 
 interface Options {
   allowMultipleLocales?: boolean;

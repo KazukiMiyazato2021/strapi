@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/typescript-utils",
+  "name": "@kazuki.m---strapi/typescript-utils",
   "version": "5.12.7",
   "description": "Typescript support for Strapi",
   "keywords": [
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git",
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git",
     "directory": "packages/utils/typescript"
   },
   "license": "SEE LICENSE IN LICENSE",

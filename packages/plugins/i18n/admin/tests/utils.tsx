@@ -8,7 +8,7 @@ import {
   act,
   screen,
   type RenderOptions,
-} from '@strapi/admin/strapi-admin/test';
+} from '@kazuki.m---strapi/admin/strapi-admin/test';
 
 import { PERMISSIONS } from '../src/constants';
 

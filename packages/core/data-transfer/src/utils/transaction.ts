@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 import { randomUUID } from 'crypto';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 import { Transaction, TransactionCallback } from '../../types/utils';
 

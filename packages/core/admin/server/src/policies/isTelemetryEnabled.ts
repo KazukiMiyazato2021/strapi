@@ -1,6 +1,6 @@
-import { policy } from '@strapi/utils';
+import { policy } from '@kazuki.m---strapi/utils';
 
-// TODO: TS - Try to make { policy: { createPolicy } } from '@strapi/utils'; work
+// TODO: TS - Try to make { policy: { createPolicy } } from '@kazuki.m---strapi/utils'; work
 const { createPolicy } = policy;
 
 /**

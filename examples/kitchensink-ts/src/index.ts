@@ -1,4 +1,4 @@
-import '@strapi/strapi';
+import '@kazuki.m---strapi/strapi';
 
 export default {
   /**

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { render, waitFor, type RenderOptions } from '@strapi/strapi/admin/test';
+import { render, waitFor, type RenderOptions } from '@kazuki.m---strapi/strapi/admin/test';
 
 import { App } from '../App';
 

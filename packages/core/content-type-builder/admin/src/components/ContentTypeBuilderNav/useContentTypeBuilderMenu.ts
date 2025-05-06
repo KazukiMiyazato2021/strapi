@@ -1,6 +1,6 @@
 import { useState, MouseEvent } from 'react';
 
-import { useTracking, useNotification } from '@strapi/admin/strapi-admin';
+import { useTracking, useNotification } from '@kazuki.m---strapi/admin/strapi-admin';
 import { useCollator, useFilter } from '@strapi/design-system';
 import isEqual from 'lodash/isEqual';
 import { useIntl } from 'react-intl';
@@ -10,7 +10,7 @@ import { useFormModalNavigation } from '../../hooks/useFormModalNavigation';
 import { pluginId } from '../../pluginId';
 import { getTrad } from '../../utils/getTrad';
 
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 export const useContentTypeBuilderMenu = () => {
   const {

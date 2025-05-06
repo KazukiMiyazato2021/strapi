@@ -1,8 +1,8 @@
 import _ from 'lodash';
-import { yup } from '@strapi/utils';
+import { yup } from '@kazuki.m---strapi/utils';
 
 import type { TestContext } from 'yup';
-import type { Schema, Struct } from '@strapi/types';
+import type { Schema, Struct } from '@kazuki.m---strapi/types';
 
 import { modelTypes, VALID_UID_TARGETS } from '../../services/constants';
 import {

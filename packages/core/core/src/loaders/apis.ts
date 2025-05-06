@@ -1,9 +1,9 @@
 import { join, extname, basename } from 'path';
 import fse, { existsSync } from 'fs-extra';
 import _ from 'lodash';
-import { strings, importDefault } from '@strapi/utils';
+import { strings, importDefault } from '@kazuki.m---strapi/utils';
 import { isEmpty } from 'lodash/fp';
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@kazuki.m---strapi/types';
 import { getGlobalId, type ContentTypeDefinition } from '../domain/content-type';
 
 interface API {

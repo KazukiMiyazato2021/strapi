@@ -1,7 +1,7 @@
 import { prop } from 'lodash/fp';
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
+import { contentTypes as contentTypesUtils } from '@kazuki.m---strapi/utils';
 
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@kazuki.m---strapi/types';
 import { getService } from '../utils';
 
 export default ({ strapi }: { strapi: Core.Strapi }) => ({

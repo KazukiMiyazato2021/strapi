@@ -1,4 +1,4 @@
-import { fixtures } from '@strapi/admin-test-utils';
+import { fixtures } from '@kazuki.m---strapi/admin-test-utils';
 
 import { getStoredToken } from '../src/reducer';
 

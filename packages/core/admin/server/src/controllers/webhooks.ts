@@ -5,9 +5,9 @@ import punycode from 'punycode/';
 import type { Context } from 'koa';
 import _ from 'lodash';
 
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@kazuki.m---strapi/utils';
 
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@kazuki.m---strapi/types';
 
 import {
   CreateWebhook,

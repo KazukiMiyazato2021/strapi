@@ -1,6 +1,6 @@
 import { ComponentType, Fragment } from 'react';
 
-import { useTracking } from '@strapi/admin/strapi-admin';
+import { useTracking } from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Box,
   Button,
@@ -28,7 +28,7 @@ import { DynamicZoneList } from './DynamicZoneList';
 import { NestedTFooter } from './NestedFooter';
 
 import type { SchemaType } from '../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 interface ListProps {
   addComponentToDZ?: () => void;

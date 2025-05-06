@@ -1,4 +1,4 @@
-import { Permission } from '@strapi/admin/strapi-admin';
+import { Permission } from '@kazuki.m---strapi/admin/strapi-admin';
 
 import type { ComponentsDictionary, Schema } from '../hooks/useDocument';
 

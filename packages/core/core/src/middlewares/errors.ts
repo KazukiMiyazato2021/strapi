@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
 
 import { formatApplicationError, formatHttpError, formatInternalError } from '../services/errors';
 

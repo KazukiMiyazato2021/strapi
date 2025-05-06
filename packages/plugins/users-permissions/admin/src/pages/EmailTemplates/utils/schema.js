@@ -1,4 +1,4 @@
-import { translatedErrors } from '@strapi/strapi/admin';
+import { translatedErrors } from '@kazuki.m---strapi/strapi/admin';
 import * as yup from 'yup';
 
 const schema = yup.object().shape({

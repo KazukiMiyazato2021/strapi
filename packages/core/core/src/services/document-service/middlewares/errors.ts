@@ -1,5 +1,5 @@
-import { errors as databaseErrors } from '@strapi/database';
-import { errors } from '@strapi/utils';
+import { errors as databaseErrors } from '@kazuki.m---strapi/database';
+import { errors } from '@kazuki.m---strapi/utils';
 
 import type { Middleware } from './middleware-manager';
 

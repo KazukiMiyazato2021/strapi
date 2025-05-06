@@ -1,4 +1,4 @@
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@kazuki.m---strapi/utils';
 
 export const RELEASE_SCHEMA = yup
   .object()

@@ -1,6 +1,6 @@
 import { merge, map, difference, uniq } from 'lodash/fp';
-import type { Core } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
+import { async } from '@kazuki.m---strapi/utils';
 import { getService } from './utils';
 import adminActions from './config/admin-actions';
 import adminConditions from './config/admin-conditions';

@@ -7,7 +7,7 @@ import {
   createContext,
   Form as FormContext,
   Blocker,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import { Box, Flex, FocusTrap, IconButton, Portal } from '@strapi/design-system';
 import { ArrowLineLeft } from '@strapi/icons';
 import { useIntl } from 'react-intl';
@@ -25,7 +25,7 @@ import { createYupSchema } from '../../utils/validation';
 import { PreviewHeader } from '../components/PreviewHeader';
 import { useGetPreviewUrlQuery } from '../services/preview';
 
-import type { UID } from '@strapi/types';
+import type { UID } from '@kazuki.m---strapi/types';
 
 /* -------------------------------------------------------------------------------------------------
  * PreviewProvider

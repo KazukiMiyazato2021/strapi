@@ -1,5 +1,5 @@
-import type { Core, UID } from '@strapi/types';
-import { async, errors } from '@strapi/utils';
+import type { Core, UID } from '@kazuki.m---strapi/types';
+import { async, errors } from '@kazuki.m---strapi/utils';
 import { map, pick, isEqual } from 'lodash/fp';
 import { STAGE_MODEL_UID, ENTITY_STAGE_ATTRIBUTE, ERRORS } from '../constants/workflows';
 import { WORKFLOW_UPDATE_STAGE } from '../constants/webhook-events';

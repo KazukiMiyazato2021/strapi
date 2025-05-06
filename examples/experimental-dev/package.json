@@ -14,8 +14,8 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "workspace:*",
-    "@strapi/strapi": "workspace:*",
+    "@kazuki.m---strapi/plugin-users-permissions": "workspace:*",
+    "@kazuki.m---strapi/strapi": "workspace:*",
     "better-sqlite3": "11.3.0",
     "react": "rc",
     "react-dom": "rc",

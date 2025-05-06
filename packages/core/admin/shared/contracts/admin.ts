@@ -1,4 +1,4 @@
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 import type { File } from 'formidable';
 
 export interface Logo {

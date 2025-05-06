@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   useCollator,
   useFilter,

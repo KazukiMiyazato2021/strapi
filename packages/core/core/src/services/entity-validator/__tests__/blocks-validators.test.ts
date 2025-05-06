@@ -1,4 +1,4 @@
-import strapiUtils, { errors } from '@strapi/utils';
+import strapiUtils, { errors } from '@kazuki.m---strapi/utils';
 import { Validators } from '../validators';
 
 const validParagraph = [

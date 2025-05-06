@@ -1,4 +1,4 @@
-import { NotificationsProvider } from '@strapi/admin/strapi-admin';
+import { NotificationsProvider } from '@kazuki.m---strapi/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { IntlProvider } from 'react-intl';

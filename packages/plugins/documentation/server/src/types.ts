@@ -1,4 +1,4 @@
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@kazuki.m---strapi/types';
 import type { OpenAPIV3 } from 'openapi-types';
 
 export interface Config {

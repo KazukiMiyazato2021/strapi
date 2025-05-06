@@ -1,4 +1,4 @@
-import { useRBAC } from '@strapi/admin/strapi-admin';
+import { useRBAC } from '@kazuki.m---strapi/admin/strapi-admin';
 import { within } from '@testing-library/react';
 import { render, server, screen } from '@tests/utils';
 import { rest } from 'msw';
@@ -11,16 +11,16 @@ import { mockReleaseDetailsPageData } from './mockReleaseDetailsPageData';
 /**
  * Mocking the useDocument hook to avoid validation errors for testing
  */
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@kazuki.m---strapi/admin/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/admin/strapi-admin'),
   useRBAC: jest.fn(() => ({
     isLoading: false,
     allowedActions: { canUpdate: true, canDelete: true, canPublish: true },
   })),
 }));
 
-jest.mock('@strapi/content-manager/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/content-manager/strapi-admin'),
+jest.mock('@kazuki.m---strapi/content-manager/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/content-manager/strapi-admin'),
   unstable_useDocument: jest.fn().mockReturnValue({ validate: jest.fn().mockReturnValue({}) }),
 }));
 

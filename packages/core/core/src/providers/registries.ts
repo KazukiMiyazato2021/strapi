@@ -1,4 +1,4 @@
-import { hooks } from '@strapi/utils';
+import { hooks } from '@kazuki.m---strapi/utils';
 
 import { defineProvider } from './provider';
 import * as registries from '../registries';

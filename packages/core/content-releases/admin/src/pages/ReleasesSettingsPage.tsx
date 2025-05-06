@@ -7,7 +7,7 @@ import {
   useNotification,
   useField,
   useRBAC,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Button,
   Combobox,

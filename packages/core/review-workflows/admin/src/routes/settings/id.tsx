@@ -10,8 +10,8 @@ import {
   Page,
   FormProps,
   FormHelpers,
-} from '@strapi/admin/strapi-admin';
-import { useLicenseLimits } from '@strapi/admin/strapi-admin/ee';
+} from '@kazuki.m---strapi/admin/strapi-admin';
+import { useLicenseLimits } from '@kazuki.m---strapi/admin/strapi-admin/ee';
 import { Button, Dialog, Flex, Typography } from '@strapi/design-system';
 import { Check } from '@strapi/icons';
 import { generateNKeysBetween } from 'fractional-indexing';

@@ -9,7 +9,7 @@ const {
     providers: { createRemoteStrapiDestinationProvider },
   },
   engine: { createTransferEngine },
-} = require('@strapi/data-transfer');
+} = require('@kazuki.m---strapi/data-transfer');
 
 interface RestoreConfiguration {
   coreStore: boolean;

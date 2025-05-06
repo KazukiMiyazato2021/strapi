@@ -1,4 +1,4 @@
-import type { validate } from '@strapi/utils';
+import type { validate } from '@kazuki.m---strapi/utils';
 
 export interface ValidatorsRegistry {
   get(path: string): validate.Validator[];

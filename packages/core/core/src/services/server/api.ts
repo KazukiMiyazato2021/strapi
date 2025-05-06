@@ -1,5 +1,5 @@
 import Router from '@koa/router';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 import { createRouteManager } from './routing';
 

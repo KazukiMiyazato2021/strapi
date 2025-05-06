@@ -8,8 +8,8 @@ import {
 
 import { contentManagerApi } from './api';
 
-import type { Modules } from '@strapi/types';
-import type { errors } from '@strapi/utils';
+import type { Modules } from '@kazuki.m---strapi/types';
+import type { errors } from '@kazuki.m---strapi/utils';
 
 interface RelationResult extends RelResult {
   __temp_key__: string;

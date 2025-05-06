@@ -1,4 +1,4 @@
-import type { UID, Modules } from '@strapi/types';
+import type { UID, Modules } from '@kazuki.m---strapi/types';
 
 export type RepositoryFactoryMethod = <TContentTypeUID extends UID.ContentType>(
   uid: TContentTypeUID,

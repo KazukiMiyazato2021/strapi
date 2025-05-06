@@ -1,4 +1,4 @@
-import { generateInstallId } from '@strapi/utils';
+import { generateInstallId } from '@kazuki.m---strapi/utils';
 
 export const sendEvent = async (event: string, uuid: string, installId?: any) => {
   try {

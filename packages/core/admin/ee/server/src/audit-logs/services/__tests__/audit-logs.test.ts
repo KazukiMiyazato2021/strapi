@@ -1,7 +1,7 @@
 import { createAuditLogsLifecycleService } from '../lifecycles';
 import { scheduleJob } from 'node-schedule';
 
-import '@strapi/types';
+import '@kazuki.m---strapi/types';
 
 jest.mock('node-schedule', () => ({
   scheduleJob: jest.fn(),

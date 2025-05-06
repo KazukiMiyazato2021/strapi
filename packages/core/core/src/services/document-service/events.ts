@@ -1,5 +1,5 @@
-import type { UID, Utils, Modules, Core } from '@strapi/types';
-import { sanitize } from '@strapi/utils';
+import type { UID, Utils, Modules, Core } from '@kazuki.m---strapi/types';
+import { sanitize } from '@kazuki.m---strapi/utils';
 
 import { getDeepPopulate } from './utils/populate';
 

@@ -1,4 +1,4 @@
-import { createContext } from '@strapi/admin/strapi-admin';
+import { createContext } from '@kazuki.m---strapi/admin/strapi-admin';
 
 interface ComponentContextValue {
   /**

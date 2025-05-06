@@ -1,6 +1,6 @@
 import _, { type PropertyPath, flatten } from 'lodash';
-import { yup } from '@strapi/utils';
-import type { Core, UID, Struct } from '@strapi/types';
+import { yup } from '@kazuki.m---strapi/utils';
+import type { Core, UID, Struct } from '@kazuki.m---strapi/types';
 
 import { removeNamespace } from '../../registries/namespace';
 import { validateModule } from './validation';

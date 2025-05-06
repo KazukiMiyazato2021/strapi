@@ -4,6 +4,6 @@
  * unique controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require('@kazuki.m---strapi/strapi').factories;
 
 module.exports = createCoreController('api::unique.unique');

@@ -2,7 +2,7 @@ import {
   engine as engineDataTransfer,
   strapi as strapiDataTransfer,
   file as fileDataTransfer,
-} from '@strapi/data-transfer';
+} from '@kazuki.m---strapi/data-transfer';
 
 import importAction from '../action';
 import { expectExit } from '../../__tests__/commands.test.utils';
@@ -32,8 +32,8 @@ jest.mock('../../../utils/data-transfer', () => {
   };
 });
 
-jest.mock('@strapi/data-transfer', () => {
-  const actual = jest.requireActual('@strapi/data-transfer');
+jest.mock('@kazuki.m---strapi/data-transfer', () => {
+  const actual = jest.requireActual('@kazuki.m---strapi/data-transfer');
 
   return {
     ...actual,

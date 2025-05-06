@@ -1,4 +1,4 @@
-import * as mockDataTransfer from '@strapi/data-transfer';
+import * as mockDataTransfer from '@kazuki.m---strapi/data-transfer';
 
 import transferAction from '../action';
 import { expectExit } from '../../__tests__/commands.test.utils';
@@ -32,8 +32,8 @@ jest.mock('../../../utils/data-transfer', () => {
 });
 
 // mock data transfer
-jest.mock('@strapi/data-transfer', () => {
-  const acutal = jest.requireActual('@strapi/data-transfer');
+jest.mock('@kazuki.m---strapi/data-transfer', () => {
+  const acutal = jest.requireActual('@kazuki.m---strapi/data-transfer');
   return {
     ...acutal,
     strapi: {

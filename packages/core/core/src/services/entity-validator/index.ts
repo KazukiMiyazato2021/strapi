@@ -5,8 +5,8 @@
 
 import { uniqBy, castArray, isNil, isArray, mergeWith } from 'lodash';
 import { has, prop, isObject, isEmpty } from 'lodash/fp';
-import strapiUtils from '@strapi/utils';
-import type { Modules, UID, Struct, Schema } from '@strapi/types';
+import strapiUtils from '@kazuki.m---strapi/utils';
+import type { Modules, UID, Struct, Schema } from '@kazuki.m---strapi/types';
 import { Validators, ValidatorMetas } from './validators';
 
 type CreateOrUpdate = 'creation' | 'update';

@@ -1,6 +1,6 @@
 import { has } from 'lodash/fp';
 
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 type PluginMap = Record<string, Core.Plugin>;
 

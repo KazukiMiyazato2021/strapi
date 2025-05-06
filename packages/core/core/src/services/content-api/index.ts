@@ -1,7 +1,7 @@
 import _ from 'lodash';
-import { sanitize, validate } from '@strapi/utils';
+import { sanitize, validate } from '@kazuki.m---strapi/utils';
 
-import type { Core, UID } from '@strapi/types';
+import type { Core, UID } from '@kazuki.m---strapi/types';
 
 import instantiatePermissionsUtilities from './permissions';
 

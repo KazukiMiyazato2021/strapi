@@ -1,4 +1,4 @@
-import { env } from '@strapi/utils';
+import { env } from '@kazuki.m---strapi/utils';
 
 import type { Strapi, Router, Controller, Service, Policy, Middleware } from '../core';
 import type { ContentTypeSchema } from '../struct';

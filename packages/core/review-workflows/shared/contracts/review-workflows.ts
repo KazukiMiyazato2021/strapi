@@ -1,6 +1,6 @@
-import type { UID, Modules } from '@strapi/types';
-import type { Permission } from '@strapi/admin/strapi-admin';
-import type { errors } from '@strapi/utils';
+import type { UID, Modules } from '@kazuki.m---strapi/types';
+import type { Permission } from '@kazuki.m---strapi/admin/strapi-admin';
+import type { errors } from '@kazuki.m---strapi/utils';
 
 type Entity = Modules.EntityService.Result<UID.Schema>;
 

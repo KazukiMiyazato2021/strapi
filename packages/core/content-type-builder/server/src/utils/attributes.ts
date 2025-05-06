@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import utils, { errors } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import utils, { errors } from '@kazuki.m---strapi/utils';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 const { ApplicationError } = errors;
 

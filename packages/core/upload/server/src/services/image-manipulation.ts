@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { join } from 'path';
 import sharp from 'sharp';
-import { file as fileUtils } from '@strapi/utils';
+import { file as fileUtils } from '@kazuki.m---strapi/utils';
 
 import { getService } from '../utils';
 

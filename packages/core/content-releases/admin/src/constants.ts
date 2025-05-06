@@ -1,4 +1,4 @@
-import type { Permission as StrapiPermission } from '@strapi/admin/strapi-admin';
+import type { Permission as StrapiPermission } from '@kazuki.m---strapi/admin/strapi-admin';
 
 export const PERMISSIONS = {
   main: [

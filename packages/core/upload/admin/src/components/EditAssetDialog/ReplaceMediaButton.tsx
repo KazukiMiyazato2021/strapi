@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useTracking } from '@strapi/admin/strapi-admin';
+import { useTracking } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Button, VisuallyHidden, ButtonProps } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 

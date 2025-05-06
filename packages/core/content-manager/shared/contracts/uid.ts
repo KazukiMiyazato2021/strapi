@@ -1,6 +1,6 @@
-import type { UID, Modules } from '@strapi/types';
+import type { UID, Modules } from '@kazuki.m---strapi/types';
 
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 
 type Entity = Modules.EntityService.Result<UID.Schema>;
 

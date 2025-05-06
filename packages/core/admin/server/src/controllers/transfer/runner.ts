@@ -1,7 +1,7 @@
 import { Context } from 'koa';
 
-import { strapi as dataTransferStrapi } from '@strapi/data-transfer';
-import { errors } from '@strapi/utils';
+import { strapi as dataTransferStrapi } from '@kazuki.m---strapi/data-transfer';
+import { errors } from '@kazuki.m---strapi/utils';
 import dataTransferAuthStrategy from '../../strategies/data-transfer';
 
 const {

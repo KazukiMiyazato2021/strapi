@@ -1,4 +1,4 @@
-import { Form } from '@strapi/admin/strapi-admin';
+import { Form } from '@kazuki.m---strapi/admin/strapi-admin';
 import { act, render as renderRTL, screen, waitFor } from '@tests/utils';
 import { Route, Routes } from 'react-router-dom';
 

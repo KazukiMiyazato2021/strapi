@@ -3,7 +3,7 @@
 import { PreviewSidePanel } from './components/PreviewSidePanel';
 
 import type { ContentManagerPlugin } from '../content-manager';
-import type { PluginDefinition } from '@strapi/admin/strapi-admin';
+import type { PluginDefinition } from '@kazuki.m---strapi/admin/strapi-admin';
 
 const previewAdmin: Partial<PluginDefinition> = {
   bootstrap(app) {

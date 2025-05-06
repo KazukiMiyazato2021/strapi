@@ -5,7 +5,7 @@ import { reducer, initialState, actions } from '../reducer';
 import { data as testData } from './data';
 
 import type { Component } from '../../../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 describe('CTB | components | DataManagerProvider | reducer | basics actions ', () => {
   it('Should return the initial state', () => {

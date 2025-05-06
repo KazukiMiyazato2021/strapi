@@ -1,4 +1,4 @@
-import type { Core, UID } from '@strapi/types';
+import type { Core, UID } from '@kazuki.m---strapi/types';
 import { testInTransaction } from '../../../../utils';
 
 const { createTestBuilder } = require('api-tests/builder');

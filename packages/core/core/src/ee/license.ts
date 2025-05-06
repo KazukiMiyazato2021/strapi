@@ -1,9 +1,9 @@
 import fs from 'fs';
 import { join, resolve } from 'path';
 import crypto from 'crypto';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
-import { generateInstallId } from '@strapi/utils';
+import { generateInstallId } from '@kazuki.m---strapi/utils';
 
 interface LicenseInfo {
   type: 'bronze' | 'silver' | 'gold';

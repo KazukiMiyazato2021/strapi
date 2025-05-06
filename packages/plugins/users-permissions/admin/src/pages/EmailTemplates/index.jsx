@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useTracking } from '@strapi/admin/strapi-admin';
+import { useTracking } from '@kazuki.m---strapi/admin/strapi-admin';
 import { useNotifyAT } from '@strapi/design-system';
 import {
   Page,
@@ -9,7 +9,7 @@ import {
   useFetchClient,
   useRBAC,
   Layouts,
-} from '@strapi/strapi/admin';
+} from '@kazuki.m---strapi/strapi/admin';
 import { useIntl } from 'react-intl';
 import { useMutation, useQuery, useQueryClient } from 'react-query';
 

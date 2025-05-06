@@ -1,4 +1,4 @@
-import { providerFactory } from '@strapi/utils';
+import { providerFactory } from '@kazuki.m---strapi/utils';
 
 export default (options = {}) => {
   const provider = providerFactory(options);

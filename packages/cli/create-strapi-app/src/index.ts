@@ -150,9 +150,9 @@ async function run(args: string[]): Promise<void> {
     gitInit: true,
     devDependencies: {},
     dependencies: {
-      '@strapi/strapi': version,
-      '@strapi/plugin-users-permissions': version,
-      '@strapi/plugin-cloud': version,
+      '@kazuki.m---strapi/strapi': version,
+      '@kazuki.m---strapi/plugin-users-permissions': version,
+      '@kazuki.m---strapi/plugin-cloud': version,
       // third party
       react: '^18.0.0',
       'react-dom': '^18.0.0',

@@ -1,4 +1,4 @@
-import { queryParams } from '@strapi/utils';
+import { queryParams } from '@kazuki.m---strapi/utils';
 
 import createReleaseActionService from '../release-action';
 

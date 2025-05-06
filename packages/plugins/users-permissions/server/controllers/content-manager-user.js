@@ -1,9 +1,9 @@
 'use strict';
 
 const _ = require('lodash');
-const { contentTypes: contentTypesUtils } = require('@strapi/utils');
+const { contentTypes: contentTypesUtils } = require('@kazuki.m---strapi/utils');
 const { ApplicationError, ValidationError, NotFoundError, ForbiddenError } =
-  require('@strapi/utils').errors;
+  require('@kazuki.m---strapi/utils').errors;
 const { validateCreateUserBody, validateUpdateUserBody } = require('./validation/user');
 
 const { UPDATED_BY_ATTRIBUTE, CREATED_BY_ATTRIBUTE } = contentTypesUtils.constants;

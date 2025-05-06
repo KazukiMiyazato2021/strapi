@@ -7,7 +7,7 @@ const {
   template: { createStrictInterpolationRegExp },
   errors,
   objects,
-} = require('@strapi/utils');
+} = require('@kazuki.m---strapi/utils');
 
 const { getService } = require('../utils');
 

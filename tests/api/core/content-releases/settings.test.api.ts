@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 // Helpers
 import { createTestBuilder } from 'api-tests/builder';

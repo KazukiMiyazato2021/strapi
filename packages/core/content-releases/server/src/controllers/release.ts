@@ -1,6 +1,6 @@
 import type Koa from 'koa';
-import { errors } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Schema } from '@kazuki.m---strapi/types';
 import { RELEASE_MODEL_UID } from '../constants';
 import { validateRelease, validatefindByDocumentAttachedParams } from './validation/release';
 import type {

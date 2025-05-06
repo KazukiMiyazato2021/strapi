@@ -8,8 +8,8 @@ const {
     providers: { createLocalFileDestinationProvider },
   },
   engine: { createTransferEngine },
-} = require('@strapi/data-transfer');
-const { createStrapi, compileStrapi } = require('@strapi/strapi');
+} = require('@kazuki.m---strapi/data-transfer');
+const { createStrapi, compileStrapi } = require('@kazuki.m---strapi/strapi');
 const path = require('path');
 
 /**

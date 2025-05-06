@@ -1,7 +1,7 @@
 import type { Context } from 'koa';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
-import { async, validate } from '@strapi/utils';
+import { async, validate } from '@kazuki.m---strapi/utils';
 import { getService } from '../utils';
 import { validateUpdateStageOnEntity, validateLocale } from '../validation/review-workflows';
 import {

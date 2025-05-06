@@ -6,7 +6,7 @@ import {
   useForm,
   useNotification,
   useFocusInputField,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Box,
   Combobox,
@@ -54,7 +54,7 @@ import { DocumentStatus } from '../../DocumentStatus';
 import { useComponent } from '../ComponentContext';
 import { RelationModal, getCollectionType } from '../Relations/RelationModal';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 /**
  * Remove a relation, whether it's been already saved or not.

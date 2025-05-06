@@ -2,12 +2,12 @@ import * as globalAgent from 'global-agent';
 import path from 'path';
 import _ from 'lodash';
 import { isFunction } from 'lodash/fp';
-import { Logger, createLogger } from '@strapi/logger';
-import { Database } from '@strapi/database';
+import { Logger, createLogger } from '@kazuki.m---strapi/logger';
+import { Database } from '@kazuki.m---strapi/database';
 
-import type { Core, Modules, UID, Schema } from '@strapi/types';
+import type { Core, Modules, UID, Schema } from '@kazuki.m---strapi/types';
 
-import tsUtils from '@strapi/typescript-utils';
+import tsUtils from '@kazuki.m---strapi/typescript-utils';
 import { loadConfiguration } from './configuration';
 
 import * as factories from './factories';

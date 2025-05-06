@@ -15,7 +15,7 @@ import { useStrapiApp } from '../../features/StrapiApp';
 import { LastEditedWidget, LastPublishedWidget } from './components/ContentManagerWidgets';
 import { GuidedTour } from './components/GuidedTour';
 
-import type { WidgetType } from '@strapi/admin/strapi-admin';
+import type { WidgetType } from '@kazuki.m---strapi/admin/strapi-admin';
 
 /* -------------------------------------------------------------------------------------------------
  * WidgetRoot

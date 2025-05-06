@@ -1,6 +1,6 @@
 import { join } from 'path';
-import { strings, errors } from '@strapi/utils';
-import type { Struct } from '@strapi/types';
+import { strings, errors } from '@kazuki.m---strapi/utils';
+import type { Struct } from '@kazuki.m---strapi/types';
 import createBuilder from './schema-builder';
 
 type Infos = {

@@ -1,6 +1,6 @@
 import { get } from 'lodash/fp';
-import { async, errors } from '@strapi/utils';
-import type { Internal } from '@strapi/types';
+import { async, errors } from '@kazuki.m---strapi/utils';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 import type { Context } from '../../types';
 

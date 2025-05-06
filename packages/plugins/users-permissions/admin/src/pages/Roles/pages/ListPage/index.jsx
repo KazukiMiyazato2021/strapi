@@ -25,7 +25,7 @@ import {
   useFetchClient,
   useRBAC,
   Layouts,
-} from '@strapi/strapi/admin';
+} from '@kazuki.m---strapi/strapi/admin';
 import { useIntl } from 'react-intl';
 import { useMutation, useQuery } from 'react-query';
 import { NavLink } from 'react-router-dom';

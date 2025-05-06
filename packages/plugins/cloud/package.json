@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/plugin-cloud",
+  "name": "@kazuki.m---strapi/plugin-cloud",
   "version": "5.12.7",
   "description": "Instructions to deploy your local project to Strapi Cloud",
   "license": "MIT",
@@ -45,7 +45,7 @@
     "react-intl": "6.6.2"
   },
   "devDependencies": {
-    "@strapi/strapi": "5.12.7",
+    "@kazuki.m---strapi/strapi": "5.12.7",
     "eslint-config-custom": "5.12.7",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -55,7 +55,7 @@
     "typescript": "5.4.4"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^5.0.0",
+    "@kazuki.m---strapi/strapi": "^5.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.0.0",

@@ -1,4 +1,4 @@
-import { Widget, useTracking } from '@strapi/admin/strapi-admin';
+import { Widget, useTracking } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Box, IconButton, Table, Tbody, Td, Tr, Typography } from '@strapi/design-system';
 import { Pencil } from '@strapi/icons';
 import { useIntl } from 'react-intl';

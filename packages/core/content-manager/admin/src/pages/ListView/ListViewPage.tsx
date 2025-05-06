@@ -14,7 +14,7 @@ import {
   useRBAC,
   Layouts,
   useTable,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import { Button, Flex, Typography, ButtonProps } from '@strapi/design-system';
 import { Plus } from '@strapi/icons';
 import isEqual from 'lodash/isEqual';
@@ -46,7 +46,7 @@ import { TableActions } from './components/TableActions';
 import { CellContent } from './components/TableCells/CellContent';
 import { ViewSettingsMenu } from './components/ViewSettingsMenu';
 
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@kazuki.m---strapi/types';
 
 const { INJECT_COLUMN_IN_TABLE } = HOOKS;
 

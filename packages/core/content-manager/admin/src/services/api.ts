@@ -1,4 +1,4 @@
-import { adminApi } from '@strapi/admin/strapi-admin';
+import { adminApi } from '@kazuki.m---strapi/admin/strapi-admin';
 
 const contentManagerApi = adminApi.enhanceEndpoints({
   addTagTypes: [

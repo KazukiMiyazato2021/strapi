@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { yup, strings } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import { yup, strings } from '@kazuki.m---strapi/utils';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 const LIFECYCLES = [
   'beforeCreate',

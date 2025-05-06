@@ -1,4 +1,4 @@
-import { Form } from '@strapi/admin/strapi-admin';
+import { Form } from '@kazuki.m---strapi/admin/strapi-admin';
 import { render, screen, server, waitFor } from '@tests/utils';
 import { rest } from 'msw';
 

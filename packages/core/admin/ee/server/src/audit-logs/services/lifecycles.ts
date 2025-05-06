@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 import { scheduleJob } from 'node-schedule';
 
 const DEFAULT_RETENTION_DAYS = 90;

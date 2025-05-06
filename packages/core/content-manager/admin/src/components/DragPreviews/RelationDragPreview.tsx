@@ -8,7 +8,7 @@ import {
   FlexWrapper,
 } from '../../pages/EditView/components/FormInputs/Relations/Relations';
 
-import type { Data } from '@strapi/types';
+import type { Data } from '@kazuki.m---strapi/types';
 
 interface RelationDragPreviewProps {
   status?: string;

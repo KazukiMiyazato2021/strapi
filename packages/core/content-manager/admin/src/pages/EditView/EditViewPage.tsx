@@ -7,7 +7,7 @@ import {
   useRBAC,
   useNotification,
   useQueryParams,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import { Grid, Main, Tabs } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { useLocation, useParams } from 'react-router-dom';

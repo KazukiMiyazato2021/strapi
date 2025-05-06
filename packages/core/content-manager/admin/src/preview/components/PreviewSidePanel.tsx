@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useQueryParams, useTracking, useForm } from '@strapi/admin/strapi-admin';
+import { useQueryParams, useTracking, useForm } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Box, Button, Tooltip, type TooltipProps } from '@strapi/design-system';
 import { stringify } from 'qs';
 import { useIntl } from 'react-intl';
@@ -8,8 +8,8 @@ import { Link, useLocation } from 'react-router-dom';
 
 import { useGetPreviewUrlQuery } from '../services/preview';
 
-import type { PanelComponent } from '@strapi/content-manager/strapi-admin';
-import type { UID } from '@strapi/types';
+import type { PanelComponent } from '@kazuki.m---strapi/content-manager/strapi-admin';
+import type { UID } from '@kazuki.m---strapi/types';
 
 interface ConditionalTooltipProps {
   isShown: boolean;

@@ -1,7 +1,7 @@
 import { prop, uniq, uniqBy, concat, flow, isEmpty } from 'lodash/fp';
 
-import { isOperatorOfType, contentTypes, relations, errors } from '@strapi/utils';
-import type { Data, Modules, UID } from '@strapi/types';
+import { isOperatorOfType, contentTypes, relations, errors } from '@kazuki.m---strapi/utils';
+import type { Data, Modules, UID } from '@kazuki.m---strapi/types';
 
 import { getService } from '../utils';
 import { validateFindAvailable, validateFindExisting } from './validation/relations';

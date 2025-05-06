@@ -1,6 +1,6 @@
-import type { Utils } from '@strapi/types';
+import type { Utils } from '@kazuki.m---strapi/types';
 
-import { providerFactory } from '@strapi/utils';
+import { providerFactory } from '@kazuki.m---strapi/utils';
 import {
   pipe,
   set,

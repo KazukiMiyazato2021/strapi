@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Data } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Data } from '@kazuki.m---strapi/types';
 
 export type ApiToken = {
   accessKey: string;

@@ -1,4 +1,4 @@
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@kazuki.m---strapi/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { render as renderRTL, waitFor } from '@testing-library/react';
 import { userEvent } from '@testing-library/user-event';
@@ -56,8 +56,8 @@ const FIXTURE_ASSETS = [
   },
 ];
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@kazuki.m---strapi/admin/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/admin/strapi-admin'),
   useQueryParams: jest.fn().mockReturnValue([{ rawQuery: '', query: {} }, jest.fn()]),
 }));
 

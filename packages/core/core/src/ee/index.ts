@@ -1,6 +1,6 @@
 import { pick, isEqual } from 'lodash/fp';
-import type { Logger } from '@strapi/logger';
-import type { Core } from '@strapi/types';
+import type { Logger } from '@kazuki.m---strapi/logger';
+import type { Core } from '@kazuki.m---strapi/types';
 
 import { readLicense, verifyLicense, fetchLicense, LicenseCheckError } from './license';
 import { shiftCronExpression } from '../utils/cron';

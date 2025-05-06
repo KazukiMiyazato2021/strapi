@@ -1,5 +1,5 @@
-import type { Modules } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Modules } from '@kazuki.m---strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
 
 import { isNil } from 'lodash/fp';
 import { ENTITY_STAGE_ATTRIBUTE } from '../constants/workflows';

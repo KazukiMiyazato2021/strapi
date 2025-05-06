@@ -1,4 +1,4 @@
-import type { Core, Struct, Modules } from '@strapi/types';
+import type { Core, Struct, Modules } from '@kazuki.m---strapi/types';
 
 import {
   getPaginationInfo,

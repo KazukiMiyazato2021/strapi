@@ -12,7 +12,7 @@ import { ComponentCard } from './ComponentCard';
 import { ComponentList } from './ComponentList';
 import { Tr } from './Tr';
 
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 interface DynamicZoneListProps {
   addComponent: (name?: string) => void;

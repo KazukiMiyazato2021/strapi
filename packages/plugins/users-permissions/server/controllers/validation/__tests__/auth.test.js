@@ -1,6 +1,6 @@
 'use strict';
 
-const errors = require('@strapi/utils');
+const errors = require('@kazuki.m---strapi/utils');
 const auth = require('../../auth');
 
 const mockStrapi = {
@@ -50,9 +50,9 @@ const mockStrapi = {
   getModel: jest.fn(),
 };
 
-jest.mock('@strapi/utils', () => {
+jest.mock('@kazuki.m---strapi/utils', () => {
   return {
-    ...jest.requireActual('@strapi/utils'),
+    ...jest.requireActual('@kazuki.m---strapi/utils'),
     sanitizeUser: jest.fn((input) => input),
     sanitize: {
       contentAPI: {

@@ -1,6 +1,6 @@
 import { inputObjectType, nonNull } from 'nexus';
-import { contentTypes } from '@strapi/utils';
-import type { Struct } from '@strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
+import type { Struct } from '@kazuki.m---strapi/types';
 import type { Context } from '../types';
 
 const { isWritableAttribute } = contentTypes;

@@ -1,4 +1,4 @@
-export * from '@strapi/core';
+export * from '@kazuki.m---strapi/core';
 
-export type * from '@strapi/types';
+export type * from '@kazuki.m---strapi/types';
 export type * from './cli/types';

@@ -1,4 +1,4 @@
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 import { Entity } from './shared';
 
 export interface Locale extends Entity {

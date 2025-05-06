@@ -1,5 +1,5 @@
-import type { UID, Schema } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { UID, Schema } from '@kazuki.m---strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
 import type { Document } from '../document-manager';
 
 const { isVisibleAttribute } = contentTypes;

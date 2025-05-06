@@ -1,4 +1,4 @@
-import { BackButton, useTracking, Layouts } from '@strapi/admin/strapi-admin';
+import { BackButton, useTracking, Layouts } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Box, Button, Flex } from '@strapi/design-system';
 import { Check, Pencil, Plus } from '@strapi/icons';
 import get from 'lodash/get';

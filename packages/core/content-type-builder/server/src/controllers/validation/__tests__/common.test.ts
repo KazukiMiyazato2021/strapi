@@ -1,4 +1,4 @@
-import { yup } from '@strapi/utils';
+import { yup } from '@kazuki.m---strapi/utils';
 import { isValidName } from '../common';
 import type { CommonTestConfig } from '../common';
 

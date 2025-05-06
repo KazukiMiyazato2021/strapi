@@ -8,7 +8,7 @@ import type {
   State,
 } from '../components/FormModalNavigationProvider/FormModalNavigationProvider';
 import type { SchemaType } from '../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 export interface FormModalNavigationContextValue {
   onCloseModal: () => void;

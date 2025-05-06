@@ -1,6 +1,6 @@
 import { toLower, castArray, trim, prop, isNil } from 'lodash/fp';
-import type { Core, UID } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Core, UID } from '@kazuki.m---strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
 import Router from '@koa/router';
 
 import compose from 'koa-compose';

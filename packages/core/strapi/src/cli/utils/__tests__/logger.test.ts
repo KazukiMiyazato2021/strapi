@@ -1,7 +1,7 @@
-import { type Logger, createLogger } from '@strapi/logger';
+import { type Logger, createLogger } from '@kazuki.m---strapi/logger';
 import { formatDiagnostic } from '../data-transfer';
 
-jest.mock('@strapi/logger', () => {
+jest.mock('@kazuki.m---strapi/logger', () => {
   const actualWinston = jest.requireActual('winston');
   return {
     ...actualWinston,

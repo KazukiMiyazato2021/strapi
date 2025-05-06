@@ -2,6 +2,6 @@
  * author service.
  */
 
-import { factories } from '@strapi/strapi';
+import { factories } from '@kazuki.m---strapi/strapi';
 
 export default factories.createCoreService('api::author.author');

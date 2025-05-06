@@ -6,7 +6,7 @@ import {
   NotificationConfig,
   useAPIErrorHandler,
   useQueryParams,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Button,
   Dialog,

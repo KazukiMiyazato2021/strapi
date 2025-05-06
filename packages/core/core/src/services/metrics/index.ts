@@ -4,7 +4,7 @@
  */
 
 import { Job, scheduleJob } from 'node-schedule';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 import wrapWithRateLimit from './rate-limiter';
 import createSender from './sender';

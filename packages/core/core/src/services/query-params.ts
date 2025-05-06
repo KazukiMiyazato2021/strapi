@@ -1,5 +1,5 @@
-import { queryParams } from '@strapi/utils';
-import type { Core, UID } from '@strapi/types';
+import { queryParams } from '@kazuki.m---strapi/utils';
+import type { Core, UID } from '@kazuki.m---strapi/types';
 
 export default (strapi: Core.Strapi) => {
   const { transformQueryParams } = queryParams.createTransformer({

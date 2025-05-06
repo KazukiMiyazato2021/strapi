@@ -1,6 +1,6 @@
-import { async } from '@strapi/utils';
+import { async } from '@kazuki.m---strapi/utils';
 
-import type { Migration, Database } from '@strapi/database';
+import type { Migration, Database } from '@kazuki.m---strapi/database';
 
 type Knex = Parameters<Migration['up']>[0];
 

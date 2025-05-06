@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import { uniq, startsWith, intersection } from 'lodash/fp';
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
-import type { Modules, Struct } from '@strapi/types';
+import { contentTypes as contentTypesUtils } from '@kazuki.m---strapi/utils';
+import type { Modules, Struct } from '@kazuki.m---strapi/types';
 import { getService } from '../utils';
 import actionDomain from '../domain/action';
 import permissionDomain from '../domain/permission';

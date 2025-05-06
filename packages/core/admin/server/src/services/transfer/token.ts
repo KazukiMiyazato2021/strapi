@@ -1,8 +1,8 @@
 import crypto from 'crypto';
 import assert from 'assert';
 import { map, isArray, omit, uniq, isNil, difference, isEmpty, isNumber } from 'lodash/fp';
-import { errors } from '@strapi/utils';
-import '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import '@kazuki.m---strapi/types';
 import constants from '../constants';
 import { getService } from '../../utils';
 import {

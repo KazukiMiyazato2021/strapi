@@ -4,6 +4,6 @@
  * article service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require('@kazuki.m---strapi/strapi').factories;
 
 module.exports = createCoreService('api::article.article');

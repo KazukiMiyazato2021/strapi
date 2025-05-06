@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { yup, validateYupSchema, errors } from '@strapi/utils';
+import { yup, validateYupSchema, errors } from '@kazuki.m---strapi/utils';
 import createModelConfigurationSchema from './model-configuration';
 
 const { PaginationError, ValidationError } = errors;

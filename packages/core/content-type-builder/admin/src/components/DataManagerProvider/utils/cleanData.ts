@@ -8,7 +8,7 @@ import { pluginId } from '../../../pluginId';
 import { makeUnique } from '../../../utils/makeUnique';
 
 import type { Components, Component, AttributeType, ContentTypes } from '../../../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 const getCreatedAndModifiedComponents = (
   allComponents: Components,

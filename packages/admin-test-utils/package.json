@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/admin-test-utils",
+  "name": "@kazuki.m---strapi/admin-test-utils",
   "version": "5.12.7",
   "private": true,
   "description": "Test utilities for the Strapi administration panel",

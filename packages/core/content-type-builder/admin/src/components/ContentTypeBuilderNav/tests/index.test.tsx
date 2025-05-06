@@ -1,5 +1,5 @@
 /* eslint-disable check-file/filename-naming-convention */
-import { Layouts } from '@strapi/admin/strapi-admin';
+import { Layouts } from '@kazuki.m---strapi/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { render } from '@testing-library/react';
 import { IntlProvider } from 'react-intl';

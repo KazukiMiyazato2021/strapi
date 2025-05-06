@@ -1,7 +1,7 @@
 import { scheduleJob, Job } from 'node-schedule';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 import { Release } from '../../../shared/contracts/releases';
 import { getService } from '../utils';
 import { RELEASE_MODEL_UID } from '../constants';

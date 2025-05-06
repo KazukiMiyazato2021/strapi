@@ -1,5 +1,5 @@
-import type { Internal } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { Internal } from '@kazuki.m---strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
 import {
   toSubjectTemplate,
   getValidOptions,

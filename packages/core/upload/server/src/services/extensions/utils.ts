@@ -1,6 +1,6 @@
-import { async, traverseEntity } from '@strapi/utils';
+import { async, traverseEntity } from '@kazuki.m---strapi/utils';
 
-import type { Schema, UID } from '@strapi/types';
+import type { Schema, UID } from '@kazuki.m---strapi/types';
 
 import { getService } from '../../utils';
 

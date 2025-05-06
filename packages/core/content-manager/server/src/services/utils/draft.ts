@@ -1,5 +1,5 @@
 import { castArray } from 'lodash/fp';
-import strapiUtils from '@strapi/utils';
+import strapiUtils from '@kazuki.m---strapi/utils';
 
 const { isVisibleAttribute } = strapiUtils.contentTypes;
 /**

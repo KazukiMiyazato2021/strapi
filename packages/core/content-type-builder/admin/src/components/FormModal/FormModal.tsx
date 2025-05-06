@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useStrapiApp, useTracking, useNotification } from '@strapi/admin/strapi-admin';
+import { useStrapiApp, useTracking, useNotification } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Button, Divider, Flex, Modal, Tabs } from '@strapi/design-system';
 import get from 'lodash/get';
 import has from 'lodash/has';
@@ -53,7 +53,7 @@ import { getFormInputNames } from './utils/getFormInputNames';
 
 import type { CustomFieldAttributeParams } from '../../contexts/DataManagerContext';
 import type { AttributeType } from '../../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 /* eslint-disable indent */
 /* eslint-disable react/no-array-index-key */

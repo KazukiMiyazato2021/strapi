@@ -1,4 +1,4 @@
-import { strings } from '@strapi/utils';
+import { strings } from '@kazuki.m---strapi/utils';
 
 import type { Context } from 'koa';
 

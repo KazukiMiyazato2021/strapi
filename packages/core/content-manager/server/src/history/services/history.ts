@@ -1,5 +1,5 @@
-import type { Core, Data, Modules, Schema } from '@strapi/types';
-import { errors, traverseEntity } from '@strapi/utils';
+import type { Core, Data, Modules, Schema } from '@kazuki.m---strapi/types';
+import { errors, traverseEntity } from '@kazuki.m---strapi/utils';
 import { omit } from 'lodash/fp';
 
 import { FIELDS_TO_IGNORE, HISTORY_VERSION_UID } from '../constants';

@@ -7,10 +7,10 @@ import {
   createContext,
   Page,
   useQueryParams,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import { useParams } from 'react-router-dom';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 /**
  * The boolean values indicate the global actions a user can perform on the document.

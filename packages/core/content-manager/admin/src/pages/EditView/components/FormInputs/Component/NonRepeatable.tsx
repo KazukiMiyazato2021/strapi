@@ -1,4 +1,4 @@
-import { useField } from '@strapi/admin/strapi-admin';
+import { useField } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Box, Flex } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 

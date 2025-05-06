@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/database",
+  "name": "@kazuki.m---strapi/database",
   "version": "5.12.7",
   "description": "Strapi's database layer",
   "homepage": "https://strapi.io",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -41,8 +41,8 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
+    "@kazuki.m---strapi/utils": "5.12.7",
     "@paralleldrive/cuid2": "2.2.2",
-    "@strapi/utils": "5.12.7",
     "ajv": "8.16.0",
     "date-fns": "2.30.0",
     "debug": "4.3.4",

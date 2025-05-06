@@ -1,7 +1,7 @@
 /* eslint-disable no-continue */
 import { keyBy } from 'lodash/fp';
-import { async } from '@strapi/utils';
-import type { UID, Schema } from '@strapi/types';
+import { async } from '@kazuki.m---strapi/utils';
+import type { UID, Schema } from '@kazuki.m---strapi/types';
 
 interface LoadContext {
   oldVersions: { id: string; locale: string }[];

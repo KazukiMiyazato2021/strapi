@@ -2,14 +2,14 @@
 
 import * as React from 'react';
 
-import { render as renderAdmin } from '@strapi/strapi/admin/test';
+import { render as renderAdmin } from '@kazuki.m---strapi/strapi/admin/test';
 import { waitForElementToBeRemoved } from '@testing-library/react';
 import { useLocation } from 'react-router-dom';
 
 import { RolesListPage } from '../index';
 
-jest.mock('@strapi/strapi/admin', () => ({
-  ...jest.requireActual('@strapi/strapi/admin'),
+jest.mock('@kazuki.m---strapi/strapi/admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/strapi/admin'),
   useRBAC: jest.fn().mockImplementation(() => ({
     isLoading: false,
     allowedActions: { canRead: true, canUpdate: true, canDelete: true, canCreate: true },

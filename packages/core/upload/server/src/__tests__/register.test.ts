@@ -18,7 +18,7 @@ const exampleMiddlewaresConfig = [
   },
 ];
 
-jest.mock('@strapi/provider-upload-local', () => ({
+jest.mock('@kazuki.m---strapi/provider-upload-local', () => ({
   init() {
     global.strapi.config.set('middlewares', exampleMiddlewaresConfig);
 

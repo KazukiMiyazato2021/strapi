@@ -7,7 +7,7 @@
  */
 
 const _ = require('lodash');
-const utils = require('@strapi/utils');
+const utils = require('@kazuki.m---strapi/utils');
 const { getService } = require('../utils');
 const { validateCreateUserBody, validateUpdateUserBody } = require('./validation/user');
 

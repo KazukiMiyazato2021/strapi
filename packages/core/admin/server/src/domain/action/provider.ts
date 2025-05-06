@@ -1,4 +1,4 @@
-import { providerFactory, hooks, errors } from '@strapi/utils';
+import { providerFactory, hooks, errors } from '@kazuki.m---strapi/utils';
 import { validateRegisterProviderAction } from '../../validation/action-provider';
 
 import domain from './index';

@@ -1,6 +1,6 @@
 import { merge, isEmpty, set, propEq } from 'lodash/fp';
-import strapiUtils from '@strapi/utils';
-import type { UID, Schema, Modules } from '@strapi/types';
+import strapiUtils from '@kazuki.m---strapi/utils';
+import type { UID, Schema, Modules } from '@kazuki.m---strapi/types';
 import { getService } from '../../utils';
 
 const { isVisibleAttribute, isScalarAttribute, getDoesAttributeRequireValidation } =
@@ -15,7 +15,7 @@ const isRelation = propEq('type', 'relation');
 const isComponent = propEq('type', 'component');
 const isDynamicZone = propEq('type', 'dynamiczone');
 
-// TODO: Import from @strapi/types when it's available there
+// TODO: Import from @kazuki.m---strapi/types when it's available there
 type Model = Parameters<typeof isVisibleAttribute>[0];
 export type Populate = Modules.EntityService.Params.Populate.Any<UID.Schema>;
 

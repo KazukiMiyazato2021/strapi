@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-upload-local",
+  "name": "@kazuki.m---strapi/provider-upload-local",
   "version": "5.12.7",
   "description": "Local provider for strapi upload",
   "keywords": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -45,11 +45,11 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@strapi/utils": "5.12.7",
+    "@kazuki.m---strapi/utils": "5.12.7",
     "fs-extra": "11.2.0"
   },
   "devDependencies": {
-    "@strapi/types": "5.12.7",
+    "@kazuki.m---strapi/types": "5.12.7",
     "@types/fs-extra": "11.0.4",
     "@types/jest": "29.5.2",
     "eslint-config-custom": "5.12.7",

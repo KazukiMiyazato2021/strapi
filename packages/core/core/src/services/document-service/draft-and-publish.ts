@@ -1,7 +1,7 @@
 import { assoc, curry } from 'lodash/fp';
 
-import type { Modules, Struct } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { Modules, Struct } from '@kazuki.m---strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
 
 type ParamsTransform = (params: Modules.Documents.Params.All) => Modules.Documents.Params.All;
 

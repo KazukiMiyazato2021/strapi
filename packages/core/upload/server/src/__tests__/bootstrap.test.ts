@@ -2,7 +2,7 @@ import { join } from 'path';
 
 import { bootstrap } from '../bootstrap';
 
-jest.mock('@strapi/provider-upload-local', () => ({
+jest.mock('@kazuki.m---strapi/provider-upload-local', () => ({
   init() {
     return {
       uploadStream: jest.fn(),

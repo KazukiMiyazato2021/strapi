@@ -1,5 +1,5 @@
-import type { UID, Modules } from '@strapi/types';
-import { setCreatorFields, async, errors } from '@strapi/utils';
+import type { UID, Modules } from '@kazuki.m---strapi/types';
+import { setCreatorFields, async, errors } from '@kazuki.m---strapi/utils';
 
 import { getDocumentLocaleAndStatus } from './validation/dimensions';
 import { getService } from '../utils';

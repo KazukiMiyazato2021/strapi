@@ -5,7 +5,7 @@
  */
 
 import { Box, Flex, Typography, Link } from '@strapi/design-system';
-import { Layouts } from '@strapi/strapi/admin';
+import { Layouts } from '@kazuki.m---strapi/strapi/admin';
 import { useIntl } from 'react-intl';
 import { styled } from 'styled-components';
 

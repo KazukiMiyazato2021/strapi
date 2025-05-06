@@ -1,12 +1,12 @@
-import { useRBAC } from '@strapi/admin/strapi-admin';
+import { useRBAC } from '@kazuki.m---strapi/admin/strapi-admin';
 import { render, server, screen } from '@tests/utils';
 import { rest } from 'msw';
 
 import { useTypedSelector } from '../../modules/hooks';
 import { ProtectedReleasesSettingsPage } from '../ReleasesSettingsPage';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@kazuki.m---strapi/admin/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/admin/strapi-admin'),
   useRBAC: jest.fn(() => ({
     isLoading: false,
     allowedActions: { canRead: false, canUpdate: false },

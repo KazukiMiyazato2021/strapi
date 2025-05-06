@@ -1,4 +1,4 @@
-import { async } from '@strapi/utils';
+import { async } from '@kazuki.m---strapi/utils';
 import { signEntityMedia } from './utils';
 
 const signFileUrlsOnDocumentService = async () => {

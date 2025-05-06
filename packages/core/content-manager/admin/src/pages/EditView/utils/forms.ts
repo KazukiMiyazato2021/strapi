@@ -1,5 +1,5 @@
 import type { ComponentsDictionary, Document } from '../../../hooks/useDocument';
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 type AnyData = Omit<Document, 'id'>;
 

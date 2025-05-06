@@ -1,10 +1,10 @@
 {
-  "name": "@strapi/permissions",
+  "name": "@kazuki.m---strapi/permissions",
   "version": "5.12.7",
   "description": "Strapi's permission layer.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@casl/ability": "6.5.0",
-    "@strapi/utils": "5.12.7",
+    "@kazuki.m---strapi/utils": "5.12.7",
     "lodash": "4.17.21",
     "qs": "6.11.1",
     "sift": "16.0.1"

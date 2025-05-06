@@ -1,7 +1,7 @@
 import { curry } from 'lodash/fp';
 
-import type { UID } from '@strapi/types';
-import { relations } from '@strapi/utils';
+import type { UID } from '@kazuki.m---strapi/types';
+import { relations } from '@kazuki.m---strapi/utils';
 import { IdMap } from '../../id-map';
 import { getRelationTargetLocale } from '../utils/i18n';
 import { getRelationTargetStatus } from '../utils/dp';

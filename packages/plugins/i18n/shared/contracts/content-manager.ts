@@ -1,5 +1,5 @@
-import type { Data, Modules } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Data, Modules } from '@kazuki.m---strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
 
 /**
  * POST /i18n/content-manager/actions/get-non-localized-fields - Get the localized fields

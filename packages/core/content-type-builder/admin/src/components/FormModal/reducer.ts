@@ -10,7 +10,7 @@ import { createComponentUid } from './utils/createUid';
 import { customFieldDefaultOptionsReducer } from './utils/customFieldDefaultOptionsReducer';
 import { shouldPluralizeName, shouldPluralizeTargetAttribute } from './utils/relations';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 type State = {
   formErrors: Record<string, any>;

@@ -1,4 +1,4 @@
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@kazuki.m---strapi/utils';
 
 const settingsSchema = yup.object({
   sizeOptimization: yup.boolean().required(),

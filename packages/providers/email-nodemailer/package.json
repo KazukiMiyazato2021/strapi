@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-email-nodemailer",
+  "name": "@kazuki.m---strapi/provider-email-nodemailer",
   "version": "5.12.7",
   "description": "Nodemailer provider for Strapi 3",
   "keywords": [

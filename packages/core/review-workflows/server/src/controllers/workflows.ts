@@ -1,8 +1,8 @@
 import type { Context } from 'koa';
 import { update, map, property } from 'lodash/fp';
 
-import type { Core } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
+import { async } from '@kazuki.m---strapi/utils';
 
 import { getService } from '../utils';
 import { validateWorkflowCreate, validateWorkflowUpdate } from '../validation/review-workflows';

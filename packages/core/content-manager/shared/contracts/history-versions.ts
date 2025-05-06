@@ -1,5 +1,5 @@
-import type { Data, Modules, Struct, UID } from '@strapi/types';
-import { type errors } from '@strapi/utils';
+import type { Data, Modules, Struct, UID } from '@kazuki.m---strapi/types';
+import { type errors } from '@kazuki.m---strapi/utils';
 
 /**
  * Unlike other Content Manager contracts, history versions can't be created via

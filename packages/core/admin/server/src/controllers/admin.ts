@@ -5,9 +5,9 @@ import path from 'path';
 import { map, values, sumBy, pipe, flatMap, propEq } from 'lodash/fp';
 import _ from 'lodash';
 import { exists } from 'fs-extra';
-import '@strapi/types';
-import { env } from '@strapi/utils';
-import tsUtils from '@strapi/typescript-utils';
+import '@kazuki.m---strapi/types';
+import { env } from '@kazuki.m---strapi/utils';
+import tsUtils from '@kazuki.m---strapi/typescript-utils';
 import {
   validateUpdateProjectSettings,
   validateUpdateProjectSettingsFiles,

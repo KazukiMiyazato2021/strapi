@@ -1,4 +1,4 @@
-import type { Core, Modules } from '@strapi/types';
+import type { Core, Modules } from '@kazuki.m---strapi/types';
 
 import { omit } from 'lodash/fp';
 

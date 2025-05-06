@@ -1,4 +1,4 @@
-import { ConfirmDialog } from '@strapi/admin/strapi-admin';
+import { ConfirmDialog } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Dialog } from '@strapi/design-system';
 
 interface RemoveFolderDialogProps {

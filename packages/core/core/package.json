@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/core",
+  "name": "@kazuki.m---strapi/core",
   "version": "5.12.7",
   "description": "Core of Strapi",
   "homepage": "https://strapi.io",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -53,17 +53,17 @@
     "test:unit:watch": "run -T jest --watch"
   },
   "dependencies": {
+    "@kazuki.m---strapi/admin": "5.12.7",
+    "@kazuki.m---strapi/database": "5.12.7",
+    "@kazuki.m---strapi/generators": "5.12.7",
+    "@kazuki.m---strapi/logger": "5.12.7",
+    "@kazuki.m---strapi/permissions": "5.12.7",
+    "@kazuki.m---strapi/types": "5.12.7",
+    "@kazuki.m---strapi/typescript-utils": "5.12.7",
+    "@kazuki.m---strapi/utils": "5.12.7",
     "@koa/cors": "5.0.0",
     "@koa/router": "12.0.2",
     "@paralleldrive/cuid2": "2.2.2",
-    "@strapi/admin": "5.12.7",
-    "@strapi/database": "5.12.7",
-    "@strapi/generators": "5.12.7",
-    "@strapi/logger": "5.12.7",
-    "@strapi/permissions": "5.12.7",
-    "@strapi/types": "5.12.7",
-    "@strapi/typescript-utils": "5.12.7",
-    "@strapi/utils": "5.12.7",
     "bcryptjs": "2.4.3",
     "boxen": "5.1.2",
     "chalk": "4.1.2",

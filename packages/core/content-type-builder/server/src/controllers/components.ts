@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import type { Context } from 'koa';
-import type { UID } from '@strapi/types';
+import type { UID } from '@kazuki.m---strapi/types';
 import { getService } from '../utils';
 import { validateComponentInput, validateUpdateComponentInput } from './validation/component';
 

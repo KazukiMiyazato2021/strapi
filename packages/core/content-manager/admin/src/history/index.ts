@@ -4,8 +4,8 @@ import { type ContentManagerPlugin } from '../content-manager';
 
 import { HistoryAction } from './components/HistoryAction';
 
-import type { StrapiApp } from '@strapi/admin/strapi-admin';
-import type { Plugin } from '@strapi/types';
+import type { StrapiApp } from '@kazuki.m---strapi/admin/strapi-admin';
+import type { Plugin } from '@kazuki.m---strapi/types';
 
 const historyAdmin: Partial<Plugin.Config.AdminInput> = {
   bootstrap(app: StrapiApp) {

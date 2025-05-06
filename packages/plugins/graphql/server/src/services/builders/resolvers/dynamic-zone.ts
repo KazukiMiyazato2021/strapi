@@ -1,4 +1,4 @@
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 import type { Context } from '../../types';
 

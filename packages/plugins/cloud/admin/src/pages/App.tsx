@@ -5,7 +5,7 @@
  *
  */
 
-import { Page } from '@strapi/strapi/admin';
+import { Page } from '@kazuki.m---strapi/strapi/admin';
 import { Routes, Route } from 'react-router-dom';
 
 import { HomePage } from './HomePage';

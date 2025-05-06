@@ -1,17 +1,17 @@
 import { Transform, JSCodeshift, Collection } from 'jscodeshift';
 
 /*
-This codemod transforms @strapi/strapi imports to use the new public interface.
+This codemod transforms @kazuki.m---strapi/strapi imports to use the new public interface.
 
 ESM
 Before:
 
-import strapi from '@strapi/strapi';
+import strapi from '@kazuki.m---strapi/strapi';
 strapi();
 
 After:
 
-import { createStrapi } from '@strapi/strapi'; // keeps the default import
+import { createStrapi } from '@kazuki.m---strapi/strapi'; // keeps the default import
 createStrapi();
 
 ---
@@ -19,19 +19,19 @@ createStrapi();
 Common JS
 Before:
 
-const strapi = require('@strapi/strapi');
+const strapi = require('@kazuki.m---strapi/strapi');
 strapi();
 
 After:
 
-const strapi = require('@strapi/strapi');
+const strapi = require('@kazuki.m---strapi/strapi');
 strapi.createStrapi();
 
 */
 
 const transformStrapiImport = (root: Collection, j: JSCodeshift) => {
   root.find(j.ImportDefaultSpecifier).forEach((path) => {
-    if (path.parent.value.source.value === '@strapi/strapi') {
+    if (path.parent.value.source.value === '@kazuki.m---strapi/strapi') {
       const newSpecifiers = path.parent.value.specifiers.filter(
         (specifier) => specifier.type !== 'ImportDefaultSpecifier'
       );
@@ -39,7 +39,7 @@ const transformStrapiImport = (root: Collection, j: JSCodeshift) => {
       j(path.parent).replaceWith(
         j.importDeclaration(
           [...newSpecifiers, j.importSpecifier(j.identifier('createStrapi'))],
-          j.literal('@strapi/strapi')
+          j.literal('@kazuki.m---strapi/strapi')
         )
       );
 
@@ -55,7 +55,7 @@ const transformRequireImport = (root: Collection, j: JSCodeshift) => {
         callee: {
           name: 'require',
         },
-        arguments: [{ value: '@strapi/strapi' }],
+        arguments: [{ value: '@kazuki.m---strapi/strapi' }],
       },
     })
     .forEach((path) => {
@@ -102,12 +102,12 @@ const transformFunctionCalls = (identifier: string, root: Collection, j: JSCodes
  *
  * With ESM imports
  *
- * import strapi from '@strapi/strapi'; => import strapi, { createStrapi } from '@strapi/strapi';
+ * import strapi from '@kazuki.m---strapi/strapi'; => import strapi, { createStrapi } from '@kazuki.m---strapi/strapi';
  * strapi() => createStrapi()
  *
  * With CJS imports
  *
- * const strapi = require('@strapi/strapi'); => no transform
+ * const strapi = require('@kazuki.m---strapi/strapi'); => no transform
  * strapi() => strapi.createStrapi()
  */
 const transform: Transform = (file, api) => {

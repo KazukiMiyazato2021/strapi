@@ -1,4 +1,4 @@
-import { server } from '@strapi/admin/strapi-admin/test';
+import { server } from '@kazuki.m---strapi/admin/strapi-admin/test';
 
 import { handlers } from './server';
 

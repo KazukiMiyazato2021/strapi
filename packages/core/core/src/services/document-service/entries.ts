@@ -1,5 +1,5 @@
-import type { UID, Modules } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { UID, Modules } from '@kazuki.m---strapi/types';
+import { async } from '@kazuki.m---strapi/utils';
 import { assoc, omit } from 'lodash/fp';
 
 import * as components from './components';

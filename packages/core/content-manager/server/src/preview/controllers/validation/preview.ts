@@ -1,8 +1,8 @@
 import * as yup from 'yup';
 import { pick } from 'lodash/fp';
 
-import type { Core, UID } from '@strapi/types';
-import { validateYupSchema, errors } from '@strapi/utils';
+import type { Core, UID } from '@kazuki.m---strapi/types';
+import { validateYupSchema, errors } from '@kazuki.m---strapi/utils';
 
 import { Preview } from '../../../../../shared/contracts';
 import type { HandlerParams } from '../../services/preview-config';

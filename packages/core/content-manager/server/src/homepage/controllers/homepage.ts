@@ -1,6 +1,6 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 import * as yup from 'yup';
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 import type { GetRecentDocuments } from '../../../../shared/contracts/homepage';
 
 const createHomepageController = () => {

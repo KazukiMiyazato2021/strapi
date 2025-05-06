@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 export const destroyOnSignal = (strapi: Core.Strapi) => {
   let signalReceived = false;

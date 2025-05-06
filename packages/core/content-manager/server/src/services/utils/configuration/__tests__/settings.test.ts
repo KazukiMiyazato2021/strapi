@@ -1,7 +1,7 @@
 import * as settingsService from '../settings';
 
-jest.mock('@strapi/utils', () => ({
-  ...jest.requireActual('@strapi/utils'),
+jest.mock('@kazuki.m---strapi/utils', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/utils'),
   traverse: {
     traverseQuerySort: jest.fn((a, b, c) => c),
   },

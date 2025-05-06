@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useForm, useField } from '@strapi/admin/strapi-admin';
+import { useForm, useField } from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Accordion,
   Box,

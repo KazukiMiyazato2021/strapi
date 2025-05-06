@@ -1,5 +1,5 @@
-import type { Core, Modules, Schema } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { Core, Modules, Schema } from '@kazuki.m---strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
 
 import type { GetRecentDocuments, RecentDocument } from '../../../../shared/contracts/homepage';
 

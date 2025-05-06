@@ -1,6 +1,6 @@
 'use strict';
 
-const { yup, validateYupSchema } = require('@strapi/utils');
+const { yup, validateYupSchema } = require('@kazuki.m---strapi/utils');
 
 const deleteRoleSchema = yup.object().shape({
   role: yup.strapiID().required(),

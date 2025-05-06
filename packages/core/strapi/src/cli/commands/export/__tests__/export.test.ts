@@ -1,4 +1,4 @@
-import { file as fileDataTransfer } from '@strapi/data-transfer';
+import { file as fileDataTransfer } from '@kazuki.m---strapi/data-transfer';
 
 import exportAction from '../action';
 import * as mockUtils from '../../../utils/data-transfer';
@@ -37,8 +37,8 @@ jest.mock('../../../utils/data-transfer', () => {
   };
 });
 
-jest.mock('@strapi/data-transfer', () => {
-  const actual = jest.requireActual('@strapi/data-transfer');
+jest.mock('@kazuki.m---strapi/data-transfer', () => {
+  const actual = jest.requireActual('@kazuki.m---strapi/data-transfer');
 
   return {
     ...actual,

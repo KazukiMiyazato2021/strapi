@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import * as Toolbar from '@radix-ui/react-toolbar';
-import { useElementOnScreen } from '@strapi/admin/strapi-admin';
+import { useElementOnScreen } from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Flex,
   Tooltip,

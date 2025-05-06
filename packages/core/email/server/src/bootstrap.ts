@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 import type { EmailConfig, SendOptions } from './types';
 
 interface EmailProvider {
@@ -20,7 +20,7 @@ const createProvider = (emailConfig: EmailConfig) => {
 
   let modulePath: string;
   try {
-    modulePath = require.resolve(`@strapi/provider-email-${providerName}`);
+    modulePath = require.resolve(`@kazuki.m---strapi/provider-email-${providerName}`);
   } catch (error) {
     if (
       error !== null &&

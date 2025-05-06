@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-email-sendmail",
+  "name": "@kazuki.m---strapi/provider-email-sendmail",
   "version": "5.12.7",
   "description": "Sendmail provider for strapi email",
   "keywords": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -43,7 +43,7 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@strapi/utils": "5.12.7",
+    "@kazuki.m---strapi/utils": "5.12.7",
     "sendmail": "^1.6.1"
   },
   "devDependencies": {

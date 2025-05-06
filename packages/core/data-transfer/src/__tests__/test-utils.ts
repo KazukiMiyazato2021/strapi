@@ -1,5 +1,5 @@
 import { Readable } from 'stream';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 import type { ITransferEngine, ISourceProvider, IDestinationProvider } from '../../types';
 
 /**

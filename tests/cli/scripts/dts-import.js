@@ -8,7 +8,7 @@ const {
     providers: { createRemoteStrapiDestinationProvider },
   },
   engine: { createTransferEngine },
-} = require('@strapi/data-transfer');
+} = require('@kazuki.m---strapi/data-transfer');
 
 /**
  * Reset the DB and import data from a DTS dataset

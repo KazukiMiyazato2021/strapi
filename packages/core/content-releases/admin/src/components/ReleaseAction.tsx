@@ -6,7 +6,7 @@ import {
   useQueryParams,
   useRBAC,
   isFetchError,
-} from '@strapi/admin/strapi-admin';
+} from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Box,
   Button,
@@ -31,8 +31,8 @@ import {
 } from './ReleaseActionModal';
 import { ReleaseActionOptions } from './ReleaseActionOptions';
 
-import type { BulkActionComponent } from '@strapi/content-manager/strapi-admin';
-import type { UID } from '@strapi/types';
+import type { BulkActionComponent } from '@kazuki.m---strapi/content-manager/strapi-admin';
+import type { UID } from '@kazuki.m---strapi/types';
 
 const getContentPermissions = (subject: string) => {
   const permissions = {

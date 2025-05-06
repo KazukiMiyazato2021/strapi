@@ -1,5 +1,5 @@
 import { pipe, omit, pick } from 'lodash/fp';
-import type { Core, UID, Utils } from '@strapi/types';
+import type { Core, UID, Utils } from '@kazuki.m---strapi/types';
 
 import { createController } from './core-api/controller';
 import { createService } from './core-api/service';

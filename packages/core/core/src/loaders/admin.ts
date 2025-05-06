@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@kazuki.m---strapi/types';
 import { getGlobalId } from '../domain/content-type';
 
 export default async function loadAdmin(strapi: Core.Strapi) {

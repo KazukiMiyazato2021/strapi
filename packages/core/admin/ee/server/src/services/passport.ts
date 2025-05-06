@@ -1,4 +1,4 @@
-import { errors } from '@strapi/utils';
+import { errors } from '@kazuki.m---strapi/utils';
 import createLocalStrategy from '../../../../server/src/services/passport/local-strategy';
 import sso from './passport/sso';
 import { isSsoLocked } from '../utils/sso-lock';

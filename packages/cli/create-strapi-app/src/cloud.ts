@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import { cli as cloudCli, services as cloudServices } from '@strapi/cloud-cli';
+import { cli as cloudCli, services as cloudServices } from '@kazuki.m---strapi/cloud-cli';
 import parseToChalk from './utils/parse-to-chalk';
 
 interface CloudError {

@@ -1,5 +1,5 @@
-import permissions from '@strapi/permissions';
-import { providerFactory } from '@strapi/utils';
+import permissions from '@kazuki.m---strapi/permissions';
+import { providerFactory } from '@kazuki.m---strapi/utils';
 
 const DEFAULT_TRANSFER_ACTIONS = ['push', 'pull'];
 

@@ -3,8 +3,8 @@
  * E.g the page size, the sort.
  */
 
-import { errors } from '@strapi/utils';
-import type { Utils } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Utils } from '@kazuki.m---strapi/types';
 
 type SortOrder = 'ASC' | 'DESC';
 

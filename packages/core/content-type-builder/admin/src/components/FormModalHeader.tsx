@@ -15,7 +15,7 @@ import { getTrad } from '../utils';
 import { AttributeIcon, IconByType } from './AttributeIcon';
 
 import type { SchemaType } from '../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@kazuki.m---strapi/types';
 
 interface Header {
   label: string;

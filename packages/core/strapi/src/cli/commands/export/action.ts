@@ -1,13 +1,13 @@
 import { isObject, isString, isFinite, toNumber } from 'lodash/fp';
 import fs from 'fs-extra';
 import chalk from 'chalk';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 import {
   engine as engineDataTransfer,
   strapi as strapiDataTransfer,
   file as fileDataTransfer,
-} from '@strapi/data-transfer';
+} from '@kazuki.m---strapi/data-transfer';
 
 import {
   getDefaultExportName,

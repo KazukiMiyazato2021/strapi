@@ -8,7 +8,7 @@ const chalk = require('chalk');
 
 const { factory } = ts;
 
-const MODULE_DECLARATION = '@strapi/strapi';
+const MODULE_DECLARATION = '@kazuki.m---strapi/strapi';
 const PUBLIC_NAMESPACE = 'Public';
 
 /**

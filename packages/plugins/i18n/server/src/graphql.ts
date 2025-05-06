@@ -1,6 +1,6 @@
 import { propEq, identity } from 'lodash/fp';
-import { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
 
 const { ValidationError } = errors;
 

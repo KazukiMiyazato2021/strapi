@@ -122,8 +122,8 @@ const assertCwdContainsStrapiProject = (name: string) => {
   try {
     const pkgJSON = require(`${process.cwd()}/package.json`);
     if (
-      !has('dependencies.@strapi/strapi', pkgJSON) &&
-      !has('devDependencies.@strapi/strapi', pkgJSON)
+      !has('dependencies.@kazuki.m---strapi/strapi', pkgJSON) &&
+      !has('devDependencies.@kazuki.m---strapi/strapi', pkgJSON)
     ) {
       logErrorAndExit();
     }

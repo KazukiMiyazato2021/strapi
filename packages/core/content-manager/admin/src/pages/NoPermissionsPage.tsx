@@ -1,4 +1,4 @@
-import { Page, Layouts } from '@strapi/admin/strapi-admin';
+import { Page, Layouts } from '@kazuki.m---strapi/admin/strapi-admin';
 import { useIntl } from 'react-intl';
 
 import { getTranslation } from '../utils/translations';

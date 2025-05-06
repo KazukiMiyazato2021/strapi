@@ -2,9 +2,9 @@
  * Webhook store is the implementation of webhook storage over the core_store
  */
 
-import { errors } from '@strapi/utils';
-import type { Model, Database } from '@strapi/database';
-import type { Modules } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Model, Database } from '@kazuki.m---strapi/database';
+import type { Modules } from '@kazuki.m---strapi/types';
 
 const { ValidationError } = errors;
 

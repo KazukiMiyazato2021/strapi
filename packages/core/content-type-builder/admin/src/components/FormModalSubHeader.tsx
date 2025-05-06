@@ -1,4 +1,4 @@
-import { StrapiAppContextValue } from '@strapi/admin/strapi-admin';
+import { StrapiAppContextValue } from '@kazuki.m---strapi/admin/strapi-admin';
 import { Flex, Typography } from '@strapi/design-system';
 import upperFirst from 'lodash/upperFirst';
 import { useIntl } from 'react-intl';

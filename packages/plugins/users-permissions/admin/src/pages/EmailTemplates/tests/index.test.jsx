@@ -1,11 +1,11 @@
 import * as React from 'react';
 
-import { render, screen, waitFor } from '@strapi/strapi/admin/test';
+import { render, screen, waitFor } from '@kazuki.m---strapi/strapi/admin/test';
 
 import { EmailTemplatesPage } from '../index';
 
-jest.mock('@strapi/strapi/admin', () => ({
-  ...jest.requireActual('@strapi/strapi/admin'),
+jest.mock('@kazuki.m---strapi/strapi/admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/strapi/admin'),
   useRBAC: jest.fn().mockImplementation(() => ({
     isLoading: false,
     allowedActions: { canUpdate: true },

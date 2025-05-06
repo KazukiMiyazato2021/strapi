@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Modules } from '@strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
+import type { Modules } from '@kazuki.m---strapi/types';
 
 /**
  * /webhooks - GET all webhooks

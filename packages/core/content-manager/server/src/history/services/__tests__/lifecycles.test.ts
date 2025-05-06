@@ -1,4 +1,4 @@
-import type { UID } from '@strapi/types';
+import type { UID } from '@kazuki.m---strapi/types';
 import { scheduleJob } from 'node-schedule';
 import { HISTORY_VERSION_UID } from '../../constants';
 import { createLifecyclesService } from '../lifecycles';

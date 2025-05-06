@@ -1,5 +1,5 @@
-import type { Core, Modules, UID } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { Core, Modules, UID } from '@kazuki.m---strapi/types';
+import { contentTypes } from '@kazuki.m---strapi/utils';
 
 import { omit, castArray } from 'lodash/fp';
 

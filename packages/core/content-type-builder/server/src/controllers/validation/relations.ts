@@ -1,7 +1,7 @@
 import { isUndefined } from 'lodash/fp';
-import { yup } from '@strapi/utils';
+import { yup } from '@kazuki.m---strapi/utils';
 import type { TestContext, TestFunction } from 'yup';
-import type { Schema, UID } from '@strapi/types';
+import type { Schema, UID } from '@kazuki.m---strapi/types';
 import { typeKinds, coreUids } from '../../services/constants';
 import { isValidName } from './common';
 

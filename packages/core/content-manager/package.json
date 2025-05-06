@@ -1,10 +1,10 @@
 {
-  "name": "@strapi/content-manager",
+  "name": "@kazuki.m---strapi/content-manager",
   "version": "5.12.7",
   "description": "A powerful UI to easily manage your data.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
@@ -61,13 +61,13 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
+    "@kazuki.m---strapi/types": "5.12.7",
+    "@kazuki.m---strapi/utils": "5.12.7",
     "@radix-ui/react-toolbar": "1.0.4",
     "@reduxjs/toolkit": "1.9.7",
     "@sindresorhus/slugify": "1.1.0",
     "@strapi/design-system": "2.0.0-rc.23",
     "@strapi/icons": "2.0.0-rc.23",
-    "@strapi/types": "5.12.7",
-    "@strapi/utils": "5.12.7",
     "codemirror5": "npm:codemirror@^5.65.11",
     "date-fns": "2.30.0",
     "fractional-indexing": "3.2.0",
@@ -102,8 +102,8 @@
     "yup": "0.32.9"
   },
   "devDependencies": {
-    "@strapi/admin": "5.12.7",
-    "@strapi/database": "5.12.7",
+    "@kazuki.m---strapi/admin": "5.12.7",
+    "@kazuki.m---strapi/database": "5.12.7",
     "@testing-library/react": "15.0.7",
     "@types/jest": "29.5.2",
     "@types/lodash": "^4.14.191",
@@ -116,7 +116,7 @@
     "styled-components": "6.1.8"
   },
   "peerDependencies": {
-    "@strapi/admin": "^5.0.0",
+    "@kazuki.m---strapi/admin": "^5.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.0.0",

@@ -1,4 +1,4 @@
-import { useFetchClient } from '@strapi/admin/strapi-admin';
+import { useFetchClient } from '@kazuki.m---strapi/admin/strapi-admin';
 import { act, renderHook, screen } from '@tests/utils';
 
 import { BulkDeleteFiles } from '../../../../shared/contracts/files';
@@ -43,8 +43,8 @@ const FIXTURE_FOLDERS = [
   },
 ];
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@kazuki.m---strapi/admin/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/admin/strapi-admin'),
   useFetchClient: jest.fn().mockReturnValue({
     post: jest.fn((url, payload) => {
       const res: BulkDeleteFiles.Response | BulkDeleteFolders.Response = {

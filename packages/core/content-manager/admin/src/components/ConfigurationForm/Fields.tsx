@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useField, useForm } from '@strapi/admin/strapi-admin';
+import { useField, useForm } from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Modal,
   Box,

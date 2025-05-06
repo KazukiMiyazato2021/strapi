@@ -1,5 +1,5 @@
 /* eslint-disable check-file/filename-naming-convention */
-import { NotificationsProvider, useNotification } from '@strapi/admin/strapi-admin';
+import { NotificationsProvider, useNotification } from '@kazuki.m---strapi/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { act, renderHook, waitFor } from '@testing-library/react';
 import { server } from '@tests/utils';
@@ -15,8 +15,8 @@ const ASSET_FIXTURE = {
 
 const notificationStatusMock = jest.fn();
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@kazuki.m---strapi/admin/strapi-admin', () => ({
+  ...jest.requireActual('@kazuki.m---strapi/admin/strapi-admin'),
   useNotification() {
     return { toggleNotification: notificationStatusMock };
   },

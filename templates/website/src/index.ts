@@ -1,4 +1,4 @@
-// import type { Core } from '@strapi/strapi';
+// import type { Core } from '@kazuki.m---strapi/strapi';
 import { bootstrap } from './bootstrap';
 
 export default {

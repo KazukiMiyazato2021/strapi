@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { objects, template } from '@strapi/utils';
+import { objects, template } from '@kazuki.m---strapi/utils';
 
 import type {
   EmailConfig,

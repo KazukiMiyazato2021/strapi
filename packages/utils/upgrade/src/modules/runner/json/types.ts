@@ -1,4 +1,4 @@
-import type { Utils } from '@strapi/types';
+import type { Utils } from '@kazuki.m---strapi/types';
 
 import type { JSONTransformAPI } from '../../json';
 

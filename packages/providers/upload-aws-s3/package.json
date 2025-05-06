@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-upload-aws-s3",
+  "name": "@kazuki.m---strapi/provider-upload-aws-s3",
   "version": "5.12.7",
   "description": "AWS S3 provider for strapi upload",
   "keywords": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {

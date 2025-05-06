@@ -1,8 +1,8 @@
 import { createCommand } from 'commander';
 import fs from 'fs';
 import _ from 'lodash';
-import { createStrapi, compileStrapi } from '@strapi/core';
-import type { Database } from '@strapi/database';
+import { createStrapi, compileStrapi } from '@kazuki.m---strapi/core';
+import type { Database } from '@kazuki.m---strapi/database';
 
 import type { StrapiCommand } from '../../types';
 import { runAction } from '../../utils/helpers';

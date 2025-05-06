@@ -1,7 +1,7 @@
 import type { Context, Next } from 'koa';
-import utils from '@strapi/utils';
+import utils from '@kazuki.m---strapi/utils';
 import { isString, get } from 'lodash/fp';
-import type { Core } from '@strapi/types';
+import type { Core } from '@kazuki.m---strapi/types';
 
 const { RateLimitError } = utils.errors;
 

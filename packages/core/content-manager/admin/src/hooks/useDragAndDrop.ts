@@ -15,7 +15,7 @@ import {
   type UseKeyboardDragAndDropCallbacks,
 } from './useKeyboardDragAndDrop';
 
-import type { Data } from '@strapi/types';
+import type { Data } from '@kazuki.m---strapi/types';
 
 const DIRECTIONS = {
   UPWARD: 'upward',

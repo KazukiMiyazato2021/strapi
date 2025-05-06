@@ -1,1 +1,1 @@
-export * from '@strapi/admin/strapi-admin/test';
+export * from '@kazuki.m---strapi/admin/strapi-admin/test';

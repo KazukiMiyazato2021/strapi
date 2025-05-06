@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/utils",
+  "name": "@kazuki.m---strapi/utils",
   "version": "5.12.7",
   "description": "Shared utilities for the Strapi packages",
   "keywords": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/KazukiMiyazato2021/strapi.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {

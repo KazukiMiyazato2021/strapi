@@ -1,4 +1,4 @@
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 type Data = Record<keyof Schema.ContentType['attributes'], any>;
 

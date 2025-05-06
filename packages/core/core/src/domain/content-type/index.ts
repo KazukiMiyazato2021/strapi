@@ -1,7 +1,7 @@
 import { cloneDeep } from 'lodash/fp';
 import _ from 'lodash';
-import { yup, contentTypes as contentTypesUtils } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import { yup, contentTypes as contentTypesUtils } from '@kazuki.m---strapi/utils';
+import type { Schema } from '@kazuki.m---strapi/types';
 import { validateContentTypeDefinition } from './validator';
 
 export type ContentTypeDefinition = {

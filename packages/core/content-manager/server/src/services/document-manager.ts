@@ -1,7 +1,7 @@
 import { omit, pipe } from 'lodash/fp';
 
-import { contentTypes, errors, pagination } from '@strapi/utils';
-import type { Core, Modules, UID } from '@strapi/types';
+import { contentTypes, errors, pagination } from '@kazuki.m---strapi/utils';
+import type { Core, Modules, UID } from '@kazuki.m---strapi/types';
 
 import { buildDeepPopulate, getDeepPopulate, getDeepPopulateDraftCount } from './utils/populate';
 import { sumDraftCounts } from './utils/draft';

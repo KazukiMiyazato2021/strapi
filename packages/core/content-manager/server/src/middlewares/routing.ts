@@ -1,4 +1,4 @@
-import type { UID, Core, Struct } from '@strapi/types';
+import type { UID, Core, Struct } from '@kazuki.m---strapi/types';
 import type { Context, Next } from 'koa';
 import isNil from 'lodash/isNil';
 

@@ -1,4 +1,4 @@
-import { translatedErrors as errorsTrads } from '@strapi/admin/strapi-admin';
+import { translatedErrors as errorsTrads } from '@kazuki.m---strapi/admin/strapi-admin';
 import uniq from 'lodash/uniq';
 import * as yup from 'yup';
 
@@ -15,7 +15,7 @@ import {
   validators,
 } from './validation/common';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@kazuki.m---strapi/types';
 
 export const attributeTypes = {
   date(usedAttributeNames: Array<string>, reservedNames: Array<string>) {

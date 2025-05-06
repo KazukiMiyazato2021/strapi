@@ -1,5 +1,5 @@
-import type { Data, Modules } from '@strapi/types';
-import type { errors } from '@strapi/utils';
+import type { Data, Modules } from '@kazuki.m---strapi/types';
+import type { errors } from '@kazuki.m---strapi/utils';
 import { AdminRole, Permission, SanitizedAdminRole } from './shared';
 
 export type SanitizedPermission = Pick<

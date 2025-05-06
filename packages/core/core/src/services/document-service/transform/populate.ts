@@ -1,5 +1,5 @@
-import { traverse } from '@strapi/utils';
-import type { UID } from '@strapi/types';
+import { traverse } from '@kazuki.m---strapi/utils';
+import type { UID } from '@kazuki.m---strapi/types';
 
 import { type Data } from './types';
 import { transformFields } from './fields';

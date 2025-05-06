@@ -1,7 +1,7 @@
-import type { Core } from '@strapi/strapi';
+import type { Core } from '@kazuki.m---strapi/strapi';
 
-import dts from '@strapi/data-transfer';
-import { createStrapi } from '@strapi/strapi';
+import dts from '@kazuki.m---strapi/data-transfer';
+import { createStrapi } from '@kazuki.m---strapi/strapi';
 import { ALLOWED_CONTENT_TYPES } from '../constants';
 
 const {

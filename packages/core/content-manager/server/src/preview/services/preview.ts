@@ -1,5 +1,5 @@
-import type { Core, UID } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Core, UID } from '@kazuki.m---strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
 
 import { getService } from '../utils';
 import type { HandlerParams } from './preview-config';

@@ -1,5 +1,5 @@
-import type { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import type { errors } from '@kazuki.m---strapi/utils';
+import type { Core } from '@kazuki.m---strapi/types';
 
 /**
  * GET /content-api/permissions - Get the permissions of all content types

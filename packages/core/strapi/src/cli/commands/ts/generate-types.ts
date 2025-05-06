@@ -1,6 +1,6 @@
 import { createCommand } from 'commander';
-import tsUtils from '@strapi/typescript-utils';
-import { createStrapi, compileStrapi } from '@strapi/core';
+import tsUtils from '@kazuki.m---strapi/typescript-utils';
+import { createStrapi, compileStrapi } from '@kazuki.m---strapi/core';
 
 import type { StrapiCommand } from '../../types';
 import { runAction } from '../../utils/helpers';

@@ -1,10 +1,10 @@
-import * as tsUtils from '@strapi/typescript-utils';
-import { strings } from '@strapi/utils';
+import * as tsUtils from '@kazuki.m---strapi/typescript-utils';
+import { strings } from '@kazuki.m---strapi/utils';
 import chokidar from 'chokidar';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import cluster from 'node:cluster';
-import { createStrapi } from '@strapi/core';
+import { createStrapi } from '@kazuki.m---strapi/core';
 
 import type { CLIContext } from '../cli/types';
 import { checkRequiredDependencies } from './core/dependencies';

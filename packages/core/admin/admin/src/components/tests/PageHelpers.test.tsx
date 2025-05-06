@@ -1,4 +1,4 @@
-import { fixtures } from '@strapi/admin-test-utils';
+import { fixtures } from '@kazuki.m---strapi/admin-test-utils';
 import { render, screen } from '@tests/utils';
 
 import { Page } from '../PageHelpers';

@@ -1,5 +1,5 @@
-import type { Struct } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Struct } from '@kazuki.m---strapi/types';
+import { errors } from '@kazuki.m---strapi/utils';
 import { ComponentConfiguration } from './components';
 
 export type Settings = {

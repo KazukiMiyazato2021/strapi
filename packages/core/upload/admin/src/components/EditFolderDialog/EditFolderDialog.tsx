@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useTracking, useNotification } from '@strapi/admin/strapi-admin';
+import { useTracking, useNotification } from '@kazuki.m---strapi/admin/strapi-admin';
 import {
   Button,
   Field,
@@ -28,7 +28,7 @@ import { EditFolderModalHeader } from './ModalHeader/ModalHeader';
 import { RemoveFolderDialog } from './RemoveFolderDialog';
 
 import type { FolderDefinition } from '../../../../shared/contracts/folders';
-import type { FetchError } from '@strapi/admin/strapi-admin';
+import type { FetchError } from '@kazuki.m---strapi/admin/strapi-admin';
 
 const folderSchema = yup.object({
   name: yup.string().required(),

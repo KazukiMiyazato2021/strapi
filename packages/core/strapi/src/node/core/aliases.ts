@@ -10,20 +10,20 @@ import { StrapiMonorepo } from './monorepo';
  * - Webpack when running the dev server (only when running in this monorepo)
  */
 const devAliases: Record<string, string> = {
-  '@strapi/admin/strapi-admin': './packages/core/admin/admin/src',
-  '@strapi/content-releases/strapi-admin': './packages/core/content-releases/admin/src',
-  '@strapi/content-manager/strapi-admin': './packages/core/content-manager/admin/src',
-  '@strapi/content-type-builder/strapi-admin': './packages/core/content-type-builder/admin/src',
-  '@strapi/email/strapi-admin': './packages/core/email/admin/src',
-  '@strapi/upload/strapi-admin': './packages/core/upload/admin/src',
-  '@strapi/plugin-cloud/strapi-admin': './packages/plugins/cloud/admin/src',
-  '@strapi/plugin-color-picker/strapi-admin': './packages/plugins/color-picker/admin/src',
-  '@strapi/plugin-documentation/strapi-admin': './packages/plugins/documentation/admin/src',
-  '@strapi/plugin-graphql/strapi-admin': './packages/plugins/graphql/admin/src',
-  '@strapi/i18n/strapi-admin': './packages/plugins/i18n/admin/src',
-  '@strapi/plugin-sentry/strapi-admin': './packages/plugins/sentry/admin/src',
-  '@strapi/plugin-users-permissions/strapi-admin': './packages/plugins/users-permissions/admin/src',
-  '@strapi/review-workflows/strapi-admin': './packages/core/review-workflows/admin/src',
+  '@kazuki.m---strapi/admin/strapi-admin': './packages/core/admin/admin/src',
+  '@kazuki.m---strapi/content-releases/strapi-admin': './packages/core/content-releases/admin/src',
+  '@kazuki.m---strapi/content-manager/strapi-admin': './packages/core/content-manager/admin/src',
+  '@kazuki.m---strapi/content-type-builder/strapi-admin': './packages/core/content-type-builder/admin/src',
+  '@kazuki.m---strapi/email/strapi-admin': './packages/core/email/admin/src',
+  '@kazuki.m---strapi/upload/strapi-admin': './packages/core/upload/admin/src',
+  '@kazuki.m---strapi/plugin-cloud/strapi-admin': './packages/plugins/cloud/admin/src',
+  '@kazuki.m---strapi/plugin-color-picker/strapi-admin': './packages/plugins/color-picker/admin/src',
+  '@kazuki.m---strapi/plugin-documentation/strapi-admin': './packages/plugins/documentation/admin/src',
+  '@kazuki.m---strapi/plugin-graphql/strapi-admin': './packages/plugins/graphql/admin/src',
+  '@kazuki.m---strapi/i18n/strapi-admin': './packages/plugins/i18n/admin/src',
+  '@kazuki.m---strapi/plugin-sentry/strapi-admin': './packages/plugins/sentry/admin/src',
+  '@kazuki.m---strapi/plugin-users-permissions/strapi-admin': './packages/plugins/users-permissions/admin/src',
+  '@kazuki.m---strapi/review-workflows/strapi-admin': './packages/core/review-workflows/admin/src',
 };
 
 const getMonorepoAliases = ({ monorepo }: { monorepo?: StrapiMonorepo }) => {

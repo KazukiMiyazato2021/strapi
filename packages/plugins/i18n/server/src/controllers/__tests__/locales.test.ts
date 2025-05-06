@@ -1,4 +1,4 @@
-import { errors, sanitize } from '@strapi/utils';
+import { errors, sanitize } from '@kazuki.m---strapi/utils';
 import controller from '../locales';
 import localeModel from '../../content-types/locale';
 
